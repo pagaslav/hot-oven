@@ -15,18 +15,22 @@
   <!-- Header section -->
   <header>
     <!-- Header container -->
-    <div>
+    <div class="flex-container">
       <!-- Logo -->
-      <div>
+      <div class="flex-item">
         <a href="index.html">
           <img src="assets/images/logo800px.png" height=100px alt="Hot Oven Bakery Logo">
         </a>
       </div>
+      <!-- Slogan -->
+      <div class="flex-item">
+        <h1 id="slogan">Crafted for You</h1>
+      </div>
       <!-- Navigation -->
-      <div>
+      <div class="flex-item">
         <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
+          <ul class="navigation" >
+            <li class="active"><a href="index.html">Home</a></li>
             <li><a href="shop.html">Shop</a></li>
             <li><a href="contact.html">Contact Us</a></li>
           </ul>
@@ -83,54 +87,61 @@
     </section>
   </main>
   <!-- Footer: Represents the bottom part of a section or page. Typically includes copyright information, contact details, links to social media -->
-  <footer>
-    <!-- Logo -->
-    <div>
-      <a href="index.html">
-        <img src="assets/images/logo800px.png" height=100px alt="Hot Oven Bakery Logo">
-      </a>
-    </div>
-    <!-- Contact us section -->
-    <section>
-    <!-- Physical address -->
-    <p>Visit us at:</p>
-    <address>
-      123 Main Street<br>
-      Cityville, State 12345<br>
-      Country
-    </address>
-    <!-- Email address with a link -->
-    <p>Contact us at: <a href="mailto:info@example.com">info@example.com</a></p>
-    <!-- Other footer elements -->
-    <div class="copyright">
-    &copy; 2024 Artem Bryzh. All rights reserved.
-    </div>
-    <!-- Social links -->
-    <div>
-      <ul>
-        <li>
-          <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page">
-            <i class="fab fa-instagram"></i>
+ <!-- Footer section -->
+ <footer class="text-center">
+  <div class="container">
+    <div class="row">
+      <!-- Logo -->
+        <div class="col-lg-3 footer-logo">
+          <a href="index.html">
+            <img src="assets/images/logo800px.png" alt="Hot Oven Bakery Logo">
           </a>
-        </li>
-        <li>
-          <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page">
-            <i class="fab fa-facebook-square"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page">
-            <i class="fab fa-twitter-square"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube channel">
-            <i class="fab fa-youtube"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </footer>
+        </div>
+        <!-- Contact us section -->
+        <div class="col-lg-6 footer-address">
+          <p>Visit us at:</p>
+            <address>
+              123 Main Street<br>
+              Cardiff<br>
+              CF10 2FY
+            </address>
+          <!-- Email address with a link -->
+          <p>Contact us at: <a href="mailto:info@example.com">info@example.com</a></p>
+          </div>
+          <!-- Other footer elements -->
+          <div class="col-lg-3 social-icons">
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page">
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page">
+                  <i class="fab fa-twitter-square"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube channel">
+                  <i class="fab fa-youtube"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Copyright -->
+        <div class="row mt-4">
+          <div class="col-lg-12">
+            <p class="footer-copyright">&copy; 2024 Artem Bryzh. All rights reserved.</p>
+          </div>
+        </div>
+  </div>
+</footer>
   <!--Script for icons "Font Awesome"-->
   <script src="https://kit.fontawesome.com/d63b433288.js" crossorigin="anonymous"></script>
 </body>
