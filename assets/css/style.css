@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600,700|Quicksand:100,200,300,400,500,600,700|Pacifico:100,200,300,400,500,600,700');
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+}
+
+body{
+  margin: 20px 40px;
+  font-family: Quicksand, sans-serif;
+  font-size: 16px;
+}
+
+header {
+  border-bottom: 2px solid #ccc; /* Adjust color and thickness as needed */
+  padding-bottom: 10px; /* Optional: Add padding for spacing */
+}
+
+main {
+  margin-top: 20px; /* Optional: Adjust margin for spacing */
+}
+
+#slogan {
+  font-family: Pacifico, sans-serif;
+  font-size: 3em;
+  font-style: italic;
+  font-weight: 100;
+  color: #808080;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Oswald, sans-serif;
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: self-end;
+  /* margin-bottom: 20px; */
+}
+
+.flex-item {
+  margin-left: 50px; 
+}
+
+.navigation {
+  font-family: Oswald;
+  font-size: 1.6em;
+  font-weight: 400;
+  color: #a68370;
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 0%;
+}
+
+.navigation li {
+  margin-right: 50px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navigation a:hover {
+  color: #f9a55a;
+  font-weight: 500;
+}
+
+.active {
+  color: #f9a55a;
+  font-weight: 500;
+}
+
+/* footer */
+
+footer {
+  background-color: #f8f9fa; /* Adjust background color */
+  padding: 20px 0; /* Adjust padding for spacing */
+}
+
+.footer-logo img {
+  height: 100px; /* Adjust logo height */
+}
+
+.footer-address p {
+  font-size: 16px; /* Adjust font size */
+  margin-bottom: 8px; /* Add spacing between lines */
+}
+
+.footer-copyright {
+  font-size: 14px; /* Adjust font size */
+  color: #6c757d; /* Adjust text color */
+}
+
+.social-icons a {
+  color: #495057; /* Adjust icon color */
+  margin-right: 15px; /* Add spacing between icons */
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Adjust hover color */
+}
+
+@media screen and (max-width:700px) {
+  .flex-container {
+    flex-direction: column;
+  }  
+}
