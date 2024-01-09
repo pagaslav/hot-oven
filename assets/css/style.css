@@ -21,10 +21,9 @@ main {
   margin-top: 20px; 
 }
 
-
 #slogan {
   font-family: Pacifico, sans-serif;
-  font-size: 3em;
+  font-size: 2.1em;
   font-style: italic;
   font-weight: 100;
   color: #808080;
@@ -125,7 +124,10 @@ h3 {
 
 .video iframe {
   max-width: 100%;
+}
 
+.text-center {
+  text-align: center;
 }
 
 /* footer */
@@ -156,8 +158,33 @@ footer {
   color: #007bff; /* Adjust hover color */
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:943px) {
+  #slogan {
+    margin-top: 10px;
+    /* display: none; */
+  }
+  .flex-item {
+    margin-left: 0px; 
+  }
+  .navigation {
+    flex-direction: row;
+    justify-content: left; 
+    margin-top: 5px;
+  }
+  .navigation li {
+    margin-left: 0px; 
+    margin-bottom: 0; 
+  }
   .flex-container {
     flex-direction: column;
-  }  
+    align-items: center;
+  } 
+  .social-icons {
+    text-align: center;
+  }
+
+  .social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+  }
 }
