@@ -31,7 +31,9 @@ main {
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5 {
   font-family: Oswald, sans-serif;
 }
 
@@ -53,6 +55,14 @@ h3 {
   font-weight: 400;
   text-transform: uppercase;
   color: #555555;
+}
+
+h5 {
+  font-size: 1.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #555555;
+  text-align: center;
 }
 
 .flex-container {
@@ -130,6 +140,60 @@ h3 {
   text-align: center;
 }
 
+/* shop page */
+
+.flex-baguett {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.flex-img-baguett {
+  width: 50%;
+}
+
+.flex-img-baguett img {
+  width: 100%;
+  height: auto;
+}
+
+.flex-txt-baguett {
+  width: 50%;
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+.flex-cards {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.flex-cards > * {
+  width: 100%;
+  margin: 2px;
+}
+
+/* Custom styles for the button */
+.custom-btn {
+  background-color: #a68370; /* Set the background color */
+  color: #ffffff; /* Set the text color */
+  border-color: #a68370; /* Set the border color */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Add a smooth transition effect */
+
+}
+
+.custom-btn:hover {
+  background-color: #f9a55a; /* Change the background color on hover */
+  color: #ffffff; /* Change the text color on hover */
+  border-color: #f9a55a; /* Change the border color on hover */
+}
+
+
+
+
 /* footer */
 
 footer {
@@ -179,6 +243,13 @@ footer {
     flex-direction: column;
     align-items: center;
   } 
+  .flex-baguett {
+    flex-direction: column;
+  }
+  .flex-img-baguett,
+  .flex-txt-baguett {
+    width: 100%; 
+  }
   .social-icons {
     text-align: center;
   }
@@ -188,3 +259,13 @@ footer {
     margin: 0 10px;
   }
 }
+
+@media screen and (max-width:600px) {
+  .flex-txt-baguett > :first-child {
+    display: none;
+  }
+  .flex-cards {
+    flex-direction: column;
+  }
+}
+
