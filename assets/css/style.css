@@ -35,34 +35,32 @@ h3,
 h4,
 h5 {
   font-family: Oswald, sans-serif;
+  color: #555555;
+  text-align: center;
 }
 
 h1 {
   font-size: 2.5em;
-  font-weight: 500;
+  font-weight: 700;
+  
 }
 
 h2 {
   font-size: 2em;
   font-weight: 500;
   text-transform: uppercase;
-  color: #555555;
-  text-align: center;
 }
 
 h3 {
   font-size: 1.3em;
   font-weight: 400;
   text-transform: uppercase;
-  color: #555555;
 }
 
 h5 {
   font-size: 1.1em;
   font-weight: 500;
   text-transform: uppercase;
-  color: #555555;
-  text-align: center;
 }
 
 .flex-container {
@@ -136,10 +134,6 @@ h5 {
   max-width: 100%;
 }
 
-.text-center {
-  text-align: center;
-}
-
 /* shop page */
 
 .flex-baguett {
@@ -183,6 +177,10 @@ h5 {
   font-size: 1.5em;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 /* Custom styles for the button */
 .custom-btn {
   background-color: #a68370; /* Set the background color */
@@ -198,7 +196,14 @@ h5 {
   border-color: #f9a55a;
 }
 
+/* article pages */
 
+article {
+  color:  #444444;
+  max-width: 900px;
+  margin: 0 auto;
+
+}
 
 
 /* footer */
@@ -206,6 +211,7 @@ h5 {
 footer {
   background-color: #f8f9fa;
   padding: 20px 0;
+  color:  #444444;
 }
 
 .footer-logo img {
@@ -259,14 +265,15 @@ footer {
   }
 
   .flex-cards .card {
-    margin: 1px !important;  /* Убираем внешние отступы */
-    width: 100% !important; /* Занимаем всю ширину родительского контейнера */
+    margin: 1px !important; 
+    width: 100% !important; 
   }
 
   .flex-txt-team {
     width: 100%;
     font-size: 1.2em;
   }
+
   .social-icons {
     text-align: center;
   }
