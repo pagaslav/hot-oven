@@ -176,6 +176,13 @@ h5 {
   margin: 2px;
 }
 
+/* contact page */
+.flex-txt-team {
+  width: 50%;
+  padding: 20px;
+  font-size: 1.5em;
+}
+
 /* Custom styles for the button */
 .custom-btn {
   background-color: #a68370; /* Set the background color */
@@ -184,11 +191,11 @@ h5 {
   transition: background-color 0.3s ease, color 0.3s ease; /* Add a smooth transition effect */
 
 }
-
+/* Change the background color, the text and the border color on hover */
 .custom-btn:hover {
-  background-color: #f9a55a; /* Change the background color on hover */
-  color: #ffffff; /* Change the text color on hover */
-  border-color: #f9a55a; /* Change the border color on hover */
+  background-color: #f9a55a; 
+  color: #ffffff; 
+  border-color: #f9a55a;
 }
 
 
@@ -250,6 +257,16 @@ footer {
   .flex-txt-baguett {
     width: 100%; 
   }
+
+  .flex-cards .card {
+    margin: 1px !important;  /* Убираем внешние отступы */
+    width: 100% !important; /* Занимаем всю ширину родительского контейнера */
+  }
+
+  .flex-txt-team {
+    width: 100%;
+    font-size: 1.2em;
+  }
   .social-icons {
     text-align: center;
   }
@@ -260,10 +277,16 @@ footer {
   }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px) {
   .flex-txt-baguett > :first-child {
     display: none;
   }
+
+  .flex-cards .card {
+    margin: 0 !important;  /* Убираем внешние отступы */
+    width: 100% !important; /* Занимаем всю ширину родительского контейнера */
+  }
+  
   .flex-cards {
     flex-direction: column;
   }
