@@ -206,6 +206,17 @@ article {
 }
 
 
+/* form-book page  */
+
+.form-check {
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+
+.form-check input[type="number"] {
+  max-width: 200px;
+}
+
 /* footer */
 
 footer {
