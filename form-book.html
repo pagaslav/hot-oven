@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Metadata for SEO -->
+    <meta name="description" content="Hot Oven - Your go-to online bakery for delicious treats. Explore our tempting selection and order now for a delightful experience!">
+    <meta name="keywords" content="Hot Oven, bakery, online bakery, delicious treats, baked goods, pastries, artisan bread, sweet delights, cake, cookies">
+    <meta name="author" content="Artem Bryzh">
+    <meta property="og:title" content="Hot Oven Home Page">
+    <meta property="og:description" content="Your go-to online bakery for delicious treats. Explore our tempting selection and order now for a delightful experience!">
+    <!-- Bootstrap CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Title and Favicon -->
+    <title>Hot Oven Home Page</title>
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <!-- Header section -->
+  <header>
+    <!-- Header container with flex layout -->
+    <div class="flex-container">
+      <!-- Logo -->
+      <div class="flex-item">
+        <a href="index.html">
+          <img src="assets/images/logo800px.png" height=100px alt="Hot Oven Bakery Logo">
+        </a>
+      </div>
+      <!-- Slogan -->
+      <div class="flex-item">
+        <h1 id="slogan">Crafted for You</h1>
+      </div>
+      <!-- Navigation -->
+      <div class="flex-item">
+        <nav role="navigation">
+          <!-- Navigation links -->
+          <ul class="navigation" >
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h2>Order and Collect</h2>
+          <!-- Bootstrap Form -->
+            <form>
+              <!-- Name Input -->
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+              </div>
+          
+              <!-- Phone Input -->
+              <div class="mb-3">
+                <label for="phone" class="form-label">Your Phone:</label>
+                <input type="tel" class="form-control" id="phone" name="phone" required>
+              </div>
+          
+              <!-- Email Input (Optional) -->
+              <div class="mb-3">
+                <label for="email" class="form-label">Your Email:</label>
+                <input type="email" class="form-control" id="email" name="email">
+              </div>
+          
+              <h3 style="text-align: left;">Select Products:</h3>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="product-french-baguettes" name="products[]" value="French Baguettes">
+                <label class="form-check-label" for="product-french-baguettes">French Baguettes</label>
+                <input type="number" class="form-control mb-3" id="quantity-french-baguettes" name="quantity_french_baguettes" placeholder="Quantity"  min="1">
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="sourdough-bread" name="products[]" value="Sourdough Bread">
+                <label class="form-check-label" for="sourdough-bread">Sourdough Bread</label>
+                <input type="number" class="form-control mb-3" id="quantity-sourdough-bread" name="quantity_sourdough_bread" placeholder="Quantity"  min="1">
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="toast-bread" name="products[]" value="Toast Bread">
+                <label class="form-check-label" for="toast-bread">Toast Bread</label>
+                <input type="number" class="form-control mb-3" id="quantity-toast-bread" name="quantity_toast_bread" placeholder="Quantity"  min="1">
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="product-ciabatta" name="products[]" value="Ciabatta">
+                <label class="form-check-label" for="product-ciabatta">Ciabatta</label>
+                <input type="number" class="form-control mb-3" id="quantity-ciabatta" name="quantity_ciabatta" placeholder="Quantity"  min="1">
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="quantity-gluten-free-bread" name="products[]" value="Gluten-Free Bread">
+                <label class="form-check-label" for="quantity-gluten-free-bread">Gluten-Free Bread</label>
+                <input type="number" class="form-control mb-3" id="quantity-gluten-free-bread" name="quantity_gluten_free_bread" placeholder="Quantity"  min="1">
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="ukrainian-bread" name="products[]" value="Ukrainian Bread">
+                <label class="form-check-label" for="ukrainian-bread">Ukrainian Bread</label>
+                <input type="number" class="form-control mb-3" id="quantity-ukrainian-bread" name="quantity_ukrainian_bread" placeholder="Quantity"  min="1">
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="product-apple-crumble" name="products[]" value="Apple Crumble">
+                <label class="form-check-label" for="product-apple-crumble">Apple Crumble</label>
+                <input type="number" class="form-control mb-3" id="quantity-apple-crumble" name="quantity_apple_crumble" placeholder="Quantity"  min="1">
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="sweet-brioche" name="products[]" value="Sweet Brioche">
+                <label class="form-check-label" for="sweet-brioche">Sweet Brioche</label>
+                <input type="number" class="form-control mb-3" id="quantity-sweet-brioche" name="quantity_sweet_brioche" placeholder="Quantity"  min="1">
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="pumpkin-bread" name="products[]" value="Pumpkin Bread">
+                <label class="form-check-label" for="pumpkin-bread">Pumpkin Bread</label>
+                <input type="number" class="form-control mb-3" id="quantity-pumpkin-bread" name="quantity_pumpkin_bread" placeholder="Quantity"  min="1">
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="daily-muffin" name="products[]" value="Daily muffin">
+                <label class="form-check-label" for="sweet-brioche">Daily muffin</label>
+                <input type="number" class="form-control mb-3" id="quantity-daily-muffin" name="quantity_daily_muffin" placeholder="Quantity"  min="1">
+             </div>
+              <div class="form-group">
+                <label class="mb-2 mt-3">Select Pickup Time:</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" id="early-morning" name="pickup_time" value="early-morning">
+                  <label class="form-check-label" for="early-morning">8:00 - 9:55</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" id="morning" name="pickup_time" value="morning">
+                     <label class="form-check-label" for="morning">9:00 - 11:55</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" id="afternoon" name="pickup_time" value="morning">
+                  <label class="form-check-label" for="morning">12:00 - 14:55</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" id="evening" name="pickup_time" value="evening">
+                  <label class="form-check-label" for="evening">15:00 - 17:55</label>
+                </div>
+              </div>
+
+              <!-- Message Textarea -->
+              <div class="mb-3 mt-3">
+                <label for="message" class="form-label">Order Comments Section:</label>
+                <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn custom-btn mb-3 float-end">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>   
+    </section>
+  </main>
+ <!-- Footer section -->
+  <footer class="text-center">
+    <div class="container">
+      <div class="row">
+        <!-- Logo -->
+        <div class="col-lg-3 footer-logo">
+          <a href="index.html">
+            <img src="assets/images/logo800px.png" alt="Hot Oven Bakery Logo">
+          </a>
+        </div>
+        <!-- Contact us section -->
+        <div class="col-lg-6 footer-address">
+          <p>Visit us at:</p>
+            <address>
+              123 Main Street<br>
+              Cardiff<br>
+              CF10 2FY
+            </address>
+          <!-- Email address with a link -->
+          <p>Contact us at: <a href="mailto:hot.oven@gmail.com">hot.oven@gmail.com</a></p>
+        </div>
+        <!-- Other footer elements -->
+        <div class="col-lg-3 social-icons">
+          <ul class="list-unstyled">
+            <li>
+              <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page">
+                <i class="fab fa-twitter-square"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube channel">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- Copyright -->
+      <div class="row mt-4">
+        <div class="col-lg-12">
+          <p class="footer-copyright">&copy; 2024 Artem Bryzh. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--Script for icons "Font Awesome"-->
+  <script src="https://kit.fontawesome.com/d63b433288.js" crossorigin="anonymous"></script>
+</body>
+</html>
