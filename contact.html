@@ -1,174 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- Meta tags for character set and responsive design -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Metadata for SEO -->
-    <meta name="description" content="Hot Oven - Your go-to online bakery for delicious treats. Explore our tempting selection and order now for a delightful experience!">
-    <meta name="keywords" content="Hot Oven, bakery, online bakery, delicious treats, baked goods, pastries, artisan bread, sweet delights, cake, cookies">
-    <meta name="author" content="Artem Bryzh">
-    <meta property="og:title" content="Hot Oven Home Page">
-    <meta property="og:description" content="Your go-to online bakery for delicious treats. Explore our tempting selection and order now for a delightful experience!">
-    <!-- Bootstrap CSS link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Title and Favicon -->
-    <title>Hot Oven Contact Page</title>
-    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <!-- Meta tags for character set and responsive design -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Metadata for SEO -->
+  <meta name="description"
+    content="Hot Oven - Your go-to online bakery for delicious treats. Explore our tempting selection and order now for a delightful experience!" />
+  <meta name="keywords"
+    content="Hot Oven, bakery, online bakery, delicious treats, baked goods, pastries, artisan bread, sweet delights, cake, cookies" />
+  <meta name="author" content="Artem Bryzh" />
+
+  <!-- Open Graph Metadata for Social Media -->
+  <meta property="og:title" content="Hot Oven Home Page" />
+  <meta property="og:description"
+    content="Your go-to online bakery for delicious treats. Explore our tempting selection and order now for a delightful experience!" />
+
+  <!-- Bootstrap CSS link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- Title and Favicon -->
+  <title>Hot Oven Home Page</title>
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
 </head>
+
 <body>
   <!-- Header section -->
   <header>
     <!-- Header container with flex layout -->
     <div class="flex-container">
-      <!-- Logo -->
+      <!-- Logo section-->
       <div class="flex-item">
         <a href="index.html">
-          <img src="assets/images/logo800px.png" height=100px alt="Hot Oven Bakery Logo">
+          <!-- Hot Oven Bakery Logo -->
+          <img src="assets/images/logo800px.png" height="100px" alt="Hot Oven Bakery Logo" />
         </a>
       </div>
-      <!-- Slogan -->
+
+      <!-- Slogan section-->
       <div class="flex-item">
+        <!-- Crafted for You Slogan -->
         <h1 id="slogan">Crafted for You</h1>
       </div>
-      <!-- Navigation -->
+
+      <!-- Navigation section-->
       <div class="flex-item">
         <nav role="navigation">
           <!-- Navigation links -->
-          <ul class="navigation" >
+          <ul class="navigation">
+            <!-- Home Link -->
             <li><a href="index.html">Home</a></li>
+            <!-- Shop Link -->
             <li><a href="shop.html">Shop</a></li>
+            <!-- Contact Link -->
             <li class="active"><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
       </div>
     </div>
   </header>
+
   <!-- Main part of index page -->
   <main>
     <!-- Information about our team -->
     <section>
+      <!-- Heading for the team section -->
       <h2 class="mb-3">Meet Our Passionate Baking Family</h2>
+      <!-- Flexbox layout for team information -->
       <div class="flex-baguett">
+        <!-- Team image container -->
         <div class="flex-img-baguett">
-            <figure class="image-container">
-                <img src="assets/images/our-team.jpg" class="img-fluid" alt="Fresh French baguettes on sale">
+          <figure class="image-container">
+            <!-- Image of the team -->
+            <img src="assets/images/our-team.jpg" class="img-fluid" alt="Team photo of Hot Oven bakery">
           </figure>
         </div>
+        <!-- Team text information -->
         <div class="flex-txt-team">
-            <p>Step into the heart of our bakery and meet the faces behind the oven. Our passionate team of bakers is like a family, working together to create delicious moments for you. From the crack of dawn to the final bake, each member adds their touch, infusing love into every treat. Join our flavorful journey crafted with care - because here, we're not just a team; we're your baking family! </p> 
-            </div>
-    </div>
-      <div class="container mt-5">
-        <div class="row">
-          <div class="col-md-8 mx-auto">
-        <!-- Contact Form Section -->
-        <section>
-        <h2>Contact Us</h2>
-        <!-- Bootstrap Form -->
-        <form action="https://formdump.codeinstitute.net" method="post">
-          <!-- Name Input -->
-          <div class="mb-3">
-            <label for="name" class="form-label">Your Name:</label>
-            <input type="text" class="form-control" id="name" name="name" required>
-          </div>
-          
-          <!-- Phone Input -->
-          <div class="mb-3">
-            <label for="phone" class="form-label">Your Phone:</label>
-            <input type="tel" class="form-control" id="phone" name="phone" required>
-          </div>
-          
-          <!-- Email Input (Optional) -->
-          <div class="mb-3">
-            <label for="email" class="form-label">Your Email:</label>
-            <input type="email" class="form-control" id="email" name="email">
-          </div>
-          
-          <!-- Message Textarea -->
-          <div class="mb-3">
-            <label for="message" class="form-label">Your Message:</label>
-            <textarea class="form-control" id="message" name="message" rows="9" required></textarea>
-          </div>
-          
-          <!-- Submit Button -->
-          <button type="submit" class="btn custom-btn mb-3 float-end">Submit</button>
-        </form>
-      </div>
-    </div>
-    </div>   
-    </section>
-    <section class="mt-5">
-      <h2>Become our happy customer</h2>
-        <div class="flex-cards">
-            <div class="card mx-3">
-                <img class="card-img-top" src="assets/images/review-1.jpg" alt="Card image cap">
-                <div class="card-body text-center">
-                  <h5 class="card-title">Emma H.</h5>
-                  <p class="card-text">"A taste of France right at my doorstep! These French Baguettes are a delightful treat, bringing the warmth and charm of French baking to my daily routine. A must-try for anyone who appreciates the art of breadmaking."</p>
-                </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="assets/images/review-2.jpg" alt="Card image cap">
-                <div class="card-body text-center">
-                  <h5 class="card-title">Oliver Smith</h5>
-                  <p class="card-text">This bread is a game-changer! It brings joy to my meals with its rich, hearty taste. Perfect for any occasion, it's become a staple in my kitchen. <br>A must-try for all bread lovers out there! Delicious, Nutritious, Simply Amazing!</p>
-                </div>
-            </div>
-            <div class="card mx-3">
-                <img class="card-img-top" src="assets/images/review-3.jpg" alt="Card image cap">
-                <div class="card-body text-center">
-                  <h5 class="card-title">Hope W.</h5>
-                  <p class="card-text">Starting my day right with heavenly pastries from this bakery! The delicious aroma and flavors make my morning commute a sweet delight. A wonderful daily ritual that brings joy to my routine. Highly recommend trying these delightful treats!</p>
-                </div>
-            </div>
+          <p>Step into the heart of our bakery and meet the faces behind the oven. Our passionate team of bakers is like
+            a family, working together to create delicious moments for you. From the crack of dawn to the final bake,
+            each member adds their touch, infusing love into every treat. Join our flavorful journey crafted with care -
+            because here, we're not just a team; we're your baking family! </p>
         </div>
-    </section>
+      </div>
+
+      <!-- Contact Form Section -->
+      <section>
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-md-8 mx-auto">
+              <!-- Heading for the contact form section -->
+              <h2>Contact Us</h2>
+
+              <!-- Bootstrap Form -->
+              <form action="https://formdump.codeinstitute.net" method="post">
+
+                <!-- Name Input -->
+                <div class="mb-3">
+                  <label for="name" class="form-label">Your Name:</label>
+                  <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+
+                <!-- Phone Input  (Optional)-->
+                <div class="mb-3">
+                  <label for="phone" class="form-label">Your Phone (Optional)</label>
+                  <input type="tel" class="form-control" id="phone" name="phone">
+                </div>
+
+                <!-- Email Input -->
+                <div class="mb-3">
+                  <label for="email" class="form-label">Your Email:</label>
+                  <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+
+                <!-- Message Textarea -->
+                <div class="mb-3">
+                  <label for="message" class="form-label">Your Message:</label>
+                  <textarea class="form-control" id="message" name="message" rows="9" required></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn custom-btn mb-3 float-end">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Customer Reviews Section -->
+      <section class="mt-5">
+        <!-- Heading for the customer reviews section -->
+        <h2>Become our happy customer</h2>
+        <!-- Flexbox layout for customer reviews -->
+        <div class="flex-cards">
+
+          <!-- Customer-1 -->
+          <div class="card mx-3">
+            <!-- Customer-1 Image -->
+            <img class="card-img-top" src="assets/images/review-1.jpg" alt="Photo of Emma H. - Happy Customer">
+            <div class="card-body text-center">
+              <!-- Customer-1 Name -->
+              <h5 class="card-title">Emma H.</h5>
+              <!-- Customer-1 Review -->
+              <p class="card-text">"A taste of France right at my doorstep! These French Baguettes are a delightful
+                treat,
+                bringing the warmth and charm of French baking to my daily routine. A must-try for anyone who
+                appreciates
+                the art of breadmaking."</p>
+            </div>
+          </div>
+
+          <!-- Customer-2 -->
+          <div class="card">
+            <!-- Customer-2 Image -->
+            <img class="card-img-top" src="assets/images/review-2.jpg" alt="Photo of Oliver Smith - Happy Customer">
+            <div class="card-body text-center">
+              <!-- Customer-2 Name -->
+              <h5 class="card-title">Oliver Smith</h5>
+              <!-- Customer-2 Review -->
+              <p class="card-text">This bread is a game-changer! It brings joy to my meals with its rich, hearty taste.
+                Perfect for any occasion, it's become a staple in my kitchen. <br>A must-try for all bread lovers out
+                there! Delicious, Nutritious, Simply Amazing!</p>
+            </div>
+          </div>
+
+          <!-- Customer-3 -->
+          <div class="card mx-3">
+            <!-- Customer-3 Image -->
+            <img class="card-img-top" src="assets/images/review-3.jpg" alt="Photo of Hope W. - Happy Customer">
+            <div class="card-body text-center">
+              <!-- Customer-3 Name -->
+              <h5 class="card-title">Hope W.</h5>
+              <!-- Customer-3 Review -->
+              <p class="card-text">Starting my day right with heavenly pastries from this bakery! The delicious aroma
+                and
+                flavors make my morning commute a sweet delight. A wonderful daily ritual that brings joy to my routine.
+                Highly recommend trying these delightful treats!</p>
+            </div>
+          </div>
+        </div>
+      </section>
   </main>
- <!-- Footer section -->
+
+  <!-- Footer section -->
   <footer class="text-center">
     <div class="container">
       <div class="row">
         <!-- Logo -->
         <div class="col-lg-3 footer-logo">
           <a href="index.html">
-            <img src="assets/images/logo800px.png" alt="Hot Oven Bakery Logo">
+            <img src="assets/images/logo800px.png" alt="Hot Oven Bakery Logo" />
           </a>
         </div>
         <!-- Contact us section -->
         <div class="col-lg-6 footer-address">
           <p>Visit us at:</p>
-            <address>
-              123 Main Street<br>
-              Cardiff<br>
-              CF10 2FY
-            </address>
+          <address tabindex="0">
+            123 Main Street<br />
+            Cardiff<br />
+            CF10 2FY
+          </address>
           <!-- Email address with a link -->
-          <p>Contact us at: <a href="mailto:hot.oven@gmail.com">hot.oven@gmail.com</a></p>
+          <p>
+            Contact us at:
+            <a href="mailto:hot.oven@gmail.com">hot.oven@gmail.com</a>
+          </p>
         </div>
         <!-- Other footer elements -->
         <div class="col-lg-3 social-icons">
           <ul class="list-unstyled">
             <li>
               <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page">
-                <i class="fab fa-instagram"></i>
+                <i class="fab fa-instagram" aria-hidden="true"></i>
               </a>
             </li>
             <li>
               <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page">
-                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-facebook-square" aria-hidden="true"></i>
               </a>
             </li>
             <li>
               <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page">
-                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-twitter-square" aria-hidden="true"></i>
               </a>
             </li>
             <li>
               <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube channel">
-                <i class="fab fa-youtube"></i>
+                <i class="fab fa-youtube" aria-hidden="true"></i>
               </a>
             </li>
           </ul>
@@ -177,7 +241,9 @@
       <!-- Copyright -->
       <div class="row mt-4">
         <div class="col-lg-12">
-          <p class="footer-copyright">&copy; 2024 Artem Bryzh. All rights reserved.</p>
+          <p class="footer-copyright">
+            &copy; 2024 Artem Bryzh. All rights reserved.
+          </p>
         </div>
       </div>
     </div>
@@ -185,4 +251,5 @@
   <!--Script for icons "Font Awesome"-->
   <script src="https://kit.fontawesome.com/d63b433288.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
