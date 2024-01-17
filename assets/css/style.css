@@ -1,34 +1,26 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600,700|Quicksand:100,200,300,400,500,600,700|Pacifico:100,200,300,400,500,600,700");
 
+/* Reset default margin, padding, and border for all elements */
 * {
   margin: 0;
   padding: 0;
   border: 0;
 }
 
+/* Set margin and font styles for the entire body */
 body {
   margin: 20px 40px;
   font-family: Quicksand, sans-serif;
   font-size: 16px;
 }
 
+/* Style the header with a bottom border and padding */
 header {
   border-bottom: 2px solid #ccc;
   padding-bottom: 10px;
 }
 
-main {
-  margin-top: 20px;
-}
-
-#slogan {
-  font-family: Pacifico, sans-serif;
-  font-size: 2.1em;
-  font-style: italic;
-  font-weight: 100;
-  color: #808080;
-}
-
+/* Define font styles for heading elements */
 h1,
 h2,
 h3,
@@ -39,26 +31,34 @@ h5 {
   text-align: center;
 }
 
+/* Style for h1 - largest heading */
 h1 {
   font-size: 2.5em;
   font-weight: 700;
 }
 
+/* Style for h2 - second-largest heading with uppercase text */
 h2 {
   font-size: 2em;
   font-weight: 500;
   text-transform: uppercase;
 }
 
+/* Style for h3 - medium-sized heading with uppercase text */
 h3 {
   font-size: 1.3em;
   font-weight: 400;
   text-transform: uppercase;
 }
 
+/* Style for h5 - smallest heading with uppercase text */
 h5 {
   font-size: 1.1em;
   font-weight: 500;
+  text-transform: uppercase;
+}
+
+.uppercase {
   text-transform: uppercase;
 }
 
@@ -72,6 +72,14 @@ h5 {
 
 .flex-item {
   margin-left: 50px;
+}
+
+#slogan {
+  font-family: Pacifico, sans-serif;
+  font-size: 2.1em;
+  font-style: italic;
+  font-weight: 100;
+  color: #808080;
 }
 
 .navigation {
@@ -103,8 +111,7 @@ h5 {
   font-weight: 500;
 }
 
-/* main */
-
+/* Index page */
 .image-container {
   position: relative;
   overflow: hidden;
@@ -134,8 +141,7 @@ h5 {
   max-width: 100%;
 }
 
-/* shop page */
-
+/* Shop page */
 .flex-baguett {
   display: flex;
   align-items: center;
@@ -170,24 +176,21 @@ h5 {
   margin: 2px;
 }
 
-/* contact page */
+/* Contact page */
 .flex-txt-team {
   width: 50%;
   padding: 20px;
   font-size: 1.5em;
 }
 
-.uppercase {
-  text-transform: uppercase;
-}
-
 /* Custom styles for the button */
 .custom-btn {
-  background-color: #a68370; /* Set the background color */
-  color: #ffffff; /* Set the text color */
-  border-color: #a68370; /* Set the border color */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Add a smooth transition effect */
+  background-color: #a68370; 
+  color: #ffffff; 
+  border-color: #a68370; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
+
 /* Change the background color, the text and the border color on hover */
 .custom-btn:hover {
   background-color: #f9a55a;
@@ -195,8 +198,7 @@ h5 {
   border-color: #f9a55a;
 }
 
-/* article pages */
-
+/* Article pages */
 article {
   color: #444444;
   max-width: 900px;
@@ -234,8 +236,7 @@ th {
   background-color: #f2f2f2;
 }
 
-/* form-book page  */
-
+/* Form-book page  */
 .form-check {
   max-width: 200px;
   margin-bottom: 10px;
@@ -245,8 +246,7 @@ th {
   max-width: 200px;
 }
 
-/* footer */
-
+/* Footer */
 footer {
   background-color: #f8f9fa;
   padding: 20px 0;
@@ -258,7 +258,7 @@ footer {
 }
 
 .footer-address p {
-  margin-bottom: 8px; /* Add spacing between lines */
+  margin-bottom: 8px;
 }
 
 .footer-copyright {
@@ -267,7 +267,7 @@ footer {
 
 .social-icons a {
   color: #495057;
-  margin-right: 15px; /* Add spacing between icons */
+  margin-right: 15px;
 }
 
 .social-icons a .fab {
@@ -276,13 +276,13 @@ footer {
 }
 
 .social-icons a:hover {
-  color: #007bff; /* Adjust hover color */
+  color: #007bff;
 }
 
+/* Media queries for responsive design */
 @media screen and (max-width: 943px) {
   #slogan {
     margin-top: 10px;
-    /* display: none; */
   }
   .flex-item {
     margin-left: 0px;
@@ -334,8 +334,8 @@ footer {
   }
 
   .flex-cards .card {
-    margin: 0 !important; /* Убираем внешние отступы */
-    width: 100% !important; /* Занимаем всю ширину родительского контейнера */
+    margin: 0 !important; 
+    width: 100% !important; 
   }
 
   .flex-cards {
