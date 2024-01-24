@@ -37,7 +37,7 @@
     <div class="flex-container">
       <!-- Logo section-->
       <div class="flex-item">
-        <a href="index.html">
+        <a href="index.html" aria-label="Go to the homepage">
           <!-- Hot Oven Bakery Logo -->
           <img src="assets/images/logo800px.png" height="100px" alt="Hot Oven Bakery Logo">
         </a>
@@ -53,13 +53,13 @@
       <div class="flex-item">
         <nav role="navigation">
           <!-- Navigation links -->
-          <ul class="navigation nav-container">
+          <ul class="navigation">
             <!-- Home Link -->
-            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li><a href="index.html" aria-label="Go to the homepage">Home</a></li>
             <!-- Shop Link -->
-            <li class="nav-item"><a href="shop.html">Shop</a></li>
+            <li><a href="shop.html" aria-label="Visit the shop">Shop</a></li>
             <!-- Contact Link -->
-            <li class="nav-item"><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html" aria-label="Contact us">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -73,19 +73,20 @@
     <section>
       <!-- Header section with title and introductory text -->
       <div class="text-center">
-        <h1 class="mb-3 uppercase">Try Ukrainian Bread</h1>
-        <p><i><strong>Ukrainian rye bread holds a special place in the heart of Ukrainian cuisine, bringing with it
-              arich cultural heritage.</strong></i></p>
+        <h2 class="mb-3">Try Ukrainian Bread</h2>
+        <p><i><strong>Ukrainian rye bread holds a special place in the heart of Ukrainian cuisine, bringing with it a
+              rich cultural heritage.</strong></i></p>
       </div>
-      <figure class="container text-center">
+      <figure class="container text-center" aria-label="Photo of Ukrainian bread in woman's hands">
         <!-- Image illustrating Ukrainian bread -->
         <img src="assets/images/ukrainian-bread.jpg" class="img-fluid mx-auto"
-          alt="the Photo of Ukrainian bread in womans hands">
+          alt="Photo of Ukrainian bread in woman's hands">
       </figure>
+
       <!-- Article providing information about Ukrainian rye bread -->
       <article>
         <div>
-          <p>Commonly known as "zytniy" (zytniy), this bread is crafted from rye flour, lending it a unique and
+          <p>Commonly known as "zytniy", this bread is crafted from rye flour, lending it a unique and
             memorable taste. The key player in this delightful concoction is the rye, grown in the fertile fields of
             Ukraine.</p>
           <p>In Ukrainian kitchens, rye bread is a versatile ingredient, finding its way into various dishes. It stars
@@ -97,7 +98,7 @@
           <p>Now, if you're curious to bring a piece of Ukrainian tradition into your home, here's a simple recipe to
             whip up your own rye bread:</p>
           <!-- List of ingredients for the rye bread recipe -->
-          <p><strong>Ingredients:</strong></p>
+          <h3><strong>Ingredients:</strong></h3>
           <ul>
             <li>2 cups rye flour</li>
             <li>1 cup water</li>
@@ -106,7 +107,7 @@
             <li>1-2 teaspoons honey or sugar (to taste)</li>
           </ul>
           <!-- Instructions for the rye bread recipe -->
-          <p><strong>Instructions:</strong></p>
+          <h3><strong>Instructions:</strong></h3>
           <ol>
             <li>In a large bowl, mix rye flour and salt.</li>
             <li>Create a well in the center and add the sourdough starter (or dissolved yeast), water, and honey or
@@ -138,20 +139,25 @@
           <img class="card-img-top" src="assets/images/ukr-bread.jpg"
             alt="Ukrainian Original Rye Bread - Wholesome goodness enhanced with garlic, 170 calories per 100 grams">
           <div class="card-body text-center">
-            <h5 class="card-title">Ukrainian Bread</h5>
+            <h4 class="card-title">Ukrainian Bread</h4>
             <p class="card-text">Savor the wholesome goodness of our Ukrainian Original Rye Bread, made with rye flour,
               enhanced with garlic, and boasting just 170 calories per 100 grams.</p>
-            <a href="form-book.html" class="btn custom-btn">Order and collect</a>
+            <a href="form-book.html" class="btn custom-btn" aria-label="Order and collect">Order and collect</a>
+
           </div>
         </div>
       </div>
     </section>
-
-    <!-- Return to Homepage link -->
-    <div class="mt-5 mb-5">
-      <h2><a href="index.html" class="return-link">Return to Homepage</a></h2>
-    </div>
   </main>
+
+  <!-- Return to Homepage link -->
+  <div class="mt-5 mb-5">
+    <h3>
+      <a href="index.html" class="return-link" aria-label="Return to Homepage">
+        <i class="fas fa-home"></i>&nbsp; Return to Homepage
+      </a>
+    </h3>
+  </div>
 
   <!-- Footer section -->
   <footer class="text-center">
@@ -159,7 +165,7 @@
       <div class="row">
         <!-- Logo -->
         <div class="col-lg-3 footer-logo">
-          <a href="index.html">
+          <a href="index.html" aria-label="Return to Homepage">
             <img src="assets/images/logo800px.png" alt="Hot Oven Bakery Logo">
           </a>
         </div>
@@ -174,29 +180,34 @@
           <!-- Email address with a link -->
           <p>
             Contact us at:
-            <a href="mailto:hot.oven@gmail.com">hot.oven@gmail.com</a>
+            <a href="mailto:hot.oven@gmail.com" aria-label="Send an email to hot.oven@gmail.com">hot.oven@gmail.com</a>
+
           </p>
         </div>
         <!-- Other footer elements -->
         <div class="col-lg-3 social-icons">
           <ul class="list-unstyled">
             <li>
-              <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page">
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+                aria-label="Visit our Instagram page">
                 <i class="fab fa-instagram" aria-hidden="true"></i>
               </a>
             </li>
             <li>
-              <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page">
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
+                aria-label="Visit our Facebook page">
                 <i class="fab fa-facebook-square" aria-hidden="true"></i>
               </a>
             </li>
             <li>
-              <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page">
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
+                aria-label="Visit our Twitter page">
                 <i class="fab fa-twitter-square" aria-hidden="true"></i>
               </a>
             </li>
             <li>
-              <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube channel">
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"
+                aria-label="Visit our YouTube channel">
                 <i class="fab fa-youtube" aria-hidden="true"></i>
               </a>
             </li>
@@ -207,8 +218,10 @@
       <div class="row mt-4">
         <div class="col-lg-12">
           <p class="footer-copyright">
-            &copy; 2024 Artem Bryzh. All rights reserved.
+            &copy; 2024 <a href="https://www.linkedin.com/in/artem-bryzh-43109a176/" target="_blank"
+              rel="noopener noreferrer" aria-label="Artem Bryzh LinkedIn Profile">Artem Bryzh</a>. All rights reserved.
           </p>
+
         </div>
       </div>
     </div>
