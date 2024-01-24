@@ -37,9 +37,9 @@
     <div class="flex-container">
       <!-- Logo section-->
       <div class="flex-item">
-        <a href="index.html">
+        <a href="index.html" aria-label="Return to Homepage to learn more about our bakery">
           <!-- Hot Oven Bakery Logo -->
-          <img src="assets/images/logo800px.png" height="100px" alt="Hot Oven Bakery Logo">
+          <img src="assets/images/logo800px.png" height="100" alt="Hot Oven Bakery Logo">
         </a>
       </div>
 
@@ -51,15 +51,15 @@
 
       <!-- Navigation section-->
       <div class="flex-item">
-        <nav role="navigation">
+        <nav>
           <!-- Navigation links -->
           <ul class="navigation">
             <!-- Home Link -->
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" aria-label="Go to the homepage">Home</a></li>
             <!-- Shop Link -->
-            <li><a href="shop.html">Shop</a></li>
+            <li><a href="shop.html" aria-label="Visit the shop">Shop</a></li>
             <!-- Contact Link -->
-            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="contact.html" aria-label="Contact us">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -72,9 +72,9 @@
     <section>
       <!-- Header section with title and introductory text -->
       <div class="text-center">
-        <h1 class="mb-3 uppercase">Reflecting on Rye</h1>
-        <p><i><strong>Rye, a resilient grain, echoes tales from ancient hands to modern kitchens, bringing a unique
-              charm to our culinary heritage.</strong></i></p>
+        <h2 class="mb-3 uppercase">Reflecting on Rye</h2>
+        <p><strong>Rye, a resilient grain, echoes tales from ancient hands to modern kitchens, bringing a unique
+            charm to our culinary heritage.</strong></p>
       </div>
       <figure class="container text-center">
         <!-- Image illustrating rye -->
@@ -83,26 +83,26 @@
       <!-- Article providing information about rye -->
       <article>
         <div>
-          <h4>Historical Roots:</h4>
+          <h3>Historical Roots:</h3>
           <p>From ancient Turkish soils to Northern Europe, rye's hardy nature made it a staple for communities in
             Russia, Poland, and beyond.</p>
-          <h4>Culinary Muse:</h4>
+          <h3>Culinary Muse:</h3>
           <p>Rye, with its nutty essence, transforms into loaves of hearty bread and crispy delights, inspiring bakers
             to create flavorful memories.</p>
-          <h4>Nutrient-Rich Gem:</h4>
+          <h3>Nutrient-Rich Gem:</h3>
           <p>Beyond its robust flavor, rye offers a nutritional treasure chest—higher fiber content aids digestion,
             promoting a wholesome lifestyle.</p>
-          <h4>Green Guardian:</h4>
+          <h3>Green Guardian:</h3>
           <p>In fields, rye stands tall as a green guardian, embracing a sustainable role in agriculture. In folklore,
             rye symbolizes prosperity and fertility, weaving stories through our cultural tapestry.</p>
-          <h4>Renaissance in the Kitchen:</h4>
+          <h3>Renaissance in the Kitchen:</h3>
           <p>Modern chefs rediscover rye, a culinary revival, an old friend returning with a fresh perspective.</p>
-          <h4>Tomorrow's Table:</h4>
+          <h3>Tomorrow's Table:</h3>
           <p>In fields, rye stands tall as a green guardian, embracing a sustainable role in agriculture. In folklore,
             rye symbolizes prosperity and fertility, weaving stories through our cultural tapestry. Savor the essence of
             rye—a culinary journey connecting us to the heartbeat of history, with enhanced nutrition compared to
             traditional grains.</p>
-          <h4>Simple Rye Bread Recipe:</h4>
+          <h3>Simple Rye Bread Recipe:</h3>
           <!-- List of ingredients for the rye bread recipe -->
           <p><strong>Ingredients:</strong></p>
           <ul>
@@ -143,20 +143,24 @@
           <img class="card-img-top" src="assets/images/ukr-bread.jpg"
             alt="Ukrainian Original Rye Bread - Wholesome goodness enhanced with garlic, 170 calories per 100 grams">
           <div class="card-body text-center">
-            <h5 class="card-title">Ukrainian Bread</h5>
+            <h4 class="card-title">Ukrainian Bread</h4>
             <p class="card-text">Savor the wholesome goodness of our Ukrainian Original Rye Bread, made with rye flour,
               enhanced with garlic, and boasting just 170 calories per 100 grams.</p>
-            <a href="form-book.html" class="btn custom-btn">Order and collect</a>
+            <a href="form-book.html" class="btn custom-btn"
+              aria-label="Order and collect link for Ukrainian Bread">Order and collect</a>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- Return to Homepage link -->
-    <div class="mt-5 mb-5">
-      <h2><a href="index.html" class="return-link">Return to Homepage</a></h2>
-    </div>
   </main>
+  <!-- Return to Homepage link -->
+  <div class="mt-5 mb-5">
+    <h3>
+      <a href="index.html" class="return-link" aria-label="Return to Homepage to learn more about our bakery">
+        <i class="fas fa-home"></i>&nbsp; Return to Homepage
+      </a>
+    </h3>
+  </div>
 
   <!-- Footer section -->
   <footer class="text-center">
@@ -164,7 +168,7 @@
       <div class="row">
         <!-- Logo -->
         <div class="col-lg-3 footer-logo">
-          <a href="index.html">
+          <a href="index.html" aria-label="Return to Homepage to learn more about our bakery">
             <img src="assets/images/logo800px.png" alt="Hot Oven Bakery Logo">
           </a>
         </div>
@@ -172,36 +176,41 @@
         <div class="col-lg-6 footer-address">
           <p>Visit us at:</p>
           <address tabindex="0">
-            123 Main Street<br />
-            Cardiff<br />
+            123 Main Street<br>
+            Cardiff<br>
             CF10 2FY
           </address>
           <!-- Email address with a link -->
           <p>
             Contact us at:
-            <a href="mailto:hot.oven@gmail.com">hot.oven@gmail.com</a>
+            <a href="mailto:hot.oven@gmail.com" aria-label="Send an email to hot.oven@gmail.com">hot.oven@gmail.com</a>
+
           </p>
         </div>
         <!-- Other footer elements -->
         <div class="col-lg-3 social-icons">
           <ul class="list-unstyled">
             <li>
-              <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page">
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+                aria-label="Visit our Instagram page">
                 <i class="fab fa-instagram" aria-hidden="true"></i>
               </a>
             </li>
             <li>
-              <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page">
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
+                aria-label="Visit our Facebook page">
                 <i class="fab fa-facebook-square" aria-hidden="true"></i>
               </a>
             </li>
             <li>
-              <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page">
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
+                aria-label="Visit our Twitter page">
                 <i class="fab fa-twitter-square" aria-hidden="true"></i>
               </a>
             </li>
             <li>
-              <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube channel">
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"
+                aria-label="Visit our YouTube channel">
                 <i class="fab fa-youtube" aria-hidden="true"></i>
               </a>
             </li>
@@ -212,12 +221,16 @@
       <div class="row mt-4">
         <div class="col-lg-12">
           <p class="footer-copyright">
-            &copy; 2024 Artem Bryzh. All rights reserved.
+            &copy; 2024 <a href="https://www.linkedin.com/in/artem-bryzh-43109a176/" target="_blank"
+              rel="noopener noreferrer" aria-label="Artem Bryzh LinkedIn Profile">Artem Bryzh</a>. All rights
+            reserved.
           </p>
+
         </div>
       </div>
     </div>
   </footer>
+
   <!--Script for icons "Font Awesome"-->
   <script src="https://kit.fontawesome.com/d63b433288.js" crossorigin="anonymous"></script>
 </body>
