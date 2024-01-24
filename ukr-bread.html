@@ -32,14 +32,14 @@
 
 <body>
   <!-- Header section -->
-  <header class="mr-5 ml-5">
+  <header>
     <!-- Header container with flex layout -->
     <div class="flex-container">
       <!-- Logo section-->
       <div class="flex-item">
-        <a href="index.html" aria-label="Go to the homepage">
+        <a href="index.html" aria-label="Return to Homepage to learn more about our bakery">
           <!-- Hot Oven Bakery Logo -->
-          <img src="assets/images/logo800px.png" height="100px" alt="Hot Oven Bakery Logo">
+          <img src="assets/images/logo800px.png" height="100" alt="Hot Oven Bakery Logo">
         </a>
       </div>
 
@@ -51,7 +51,7 @@
 
       <!-- Navigation section-->
       <div class="flex-item">
-        <nav role="navigation">
+        <nav>
           <!-- Navigation links -->
           <ul class="navigation">
             <!-- Home Link -->
@@ -59,11 +59,10 @@
             <!-- Shop Link -->
             <li><a href="shop.html" aria-label="Visit the shop">Shop</a></li>
             <!-- Contact Link -->
-            <li><a href="contact.html" aria-label="Contact us">Contact</a></li>
+            <li class="active"><a href="contact.html" aria-label="Contact us">Contact</a></li>
           </ul>
         </nav>
       </div>
-    </div>
     </div>
   </header>
 
@@ -74,8 +73,8 @@
       <!-- Header section with title and introductory text -->
       <div class="text-center">
         <h2 class="mb-3">Try Ukrainian Bread</h2>
-        <p><i><strong>Ukrainian rye bread holds a special place in the heart of Ukrainian cuisine, bringing with it a
-              rich cultural heritage.</strong></i></p>
+        <p><strong>Ukrainian rye bread holds a special place in the heart of Ukrainian cuisine, bringing with it a
+            rich cultural heritage.</strong></p>
       </div>
       <figure class="container text-center" aria-label="Photo of Ukrainian bread in woman's hands">
         <!-- Image illustrating Ukrainian bread -->
@@ -142,7 +141,8 @@
             <h4 class="card-title">Ukrainian Bread</h4>
             <p class="card-text">Savor the wholesome goodness of our Ukrainian Original Rye Bread, made with rye flour,
               enhanced with garlic, and boasting just 170 calories per 100 grams.</p>
-            <a href="form-book.html" class="btn custom-btn" aria-label="Order and collect">Order and collect</a>
+            <a href="form-book.html" class="btn custom-btn"
+              aria-label="Order and collect link for Ukrainian Bread">Order and collect</a>
 
           </div>
         </div>
@@ -153,7 +153,7 @@
   <!-- Return to Homepage link -->
   <div class="mt-5 mb-5">
     <h3>
-      <a href="index.html" class="return-link" aria-label="Return to Homepage">
+      <a href="index.html" class="return-link" aria-label="Return to Homepage to learn more about our bakery">
         <i class="fas fa-home"></i>&nbsp; Return to Homepage
       </a>
     </h3>
@@ -165,16 +165,16 @@
       <div class="row">
         <!-- Logo -->
         <div class="col-lg-3 footer-logo">
-          <a href="index.html" aria-label="Return to Homepage">
-            <img src="assets/images/logo800px.png" alt="Hot Oven Bakery Logo">
+          <a href="index.html" aria-label="Return to Homepage to learn more about our bakery">
+            <img src="assets/images/logo800px.png" id="logo" alt="Hot Oven Bakery Logo">
           </a>
         </div>
         <!-- Contact us section -->
         <div class="col-lg-6 footer-address">
           <p>Visit us at:</p>
           <address tabindex="0">
-            123 Main Street<br />
-            Cardiff<br />
+            123 Main Street<br>
+            Cardiff<br>
             CF10 2FY
           </address>
           <!-- Email address with a link -->
