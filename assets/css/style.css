@@ -18,13 +18,9 @@ body {
 header {
   border-bottom: 2px solid #ccc;
   padding-bottom: 10px;
-  /* margin: auto;
-  text-align: center;
-  justify-content: center; */
 }
 
 /* Define font styles for heading elements */
-h1,
 h2,
 h3,
 h4,
@@ -32,41 +28,25 @@ h5 {
   font-family: Oswald, sans-serif;
   color: #555555;
   text-align: center;
+  text-transform: uppercase;
 }
 
-/* Style for h1 - largest heading */
-h1 {
-  font-size: 2.5em;
-  font-weight: 700;
-}
-
-/* Style for h2 - second-largest heading with uppercase text */
 h2 {
   font-size: 2em;
   font-weight: 500;
-  text-transform: uppercase;
 }
 
-/* Style for h3 - medium-sized heading with uppercase text */
 h3 {
   font-size: 1.3em;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-/* Style for h5 - smallest heading with uppercase text */
-h5 {
-  font-size: 1.1em;
   font-weight: 500;
-  text-transform: uppercase;
 }
 
-.uppercase {
-  text-transform: uppercase;
+h4 {
+  font-size: 1.2em;
+  font-weight: 500;
 }
 
 /* Header container with flex layout */
-
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -214,7 +194,9 @@ article {
   font-size: 1em;
   font-weight: 500;
   color: #a68370;
+  border-bottom: 1px solid #a68370;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .return-link:hover {
@@ -242,12 +224,17 @@ th {
 
 /* Form-book page  */
 .form-check {
-  max-width: 200px;
+  max-width: 250px;
   margin-bottom: 10px;
 }
 
-.form-check input[type="number"] {
-  max-width: 200px;
+
+.response-text {
+  font-size: 1.5em;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
 }
 
 /* Footer */
