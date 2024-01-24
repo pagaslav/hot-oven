@@ -36,9 +36,9 @@
     <div class="flex-container">
       <!-- Logo section-->
       <div class="flex-item">
-        <a href="index.html">
+        <a href="index.html" aria-label="Return to Homepage to learn more about our bakery">
           <!-- Hot Oven Bakery Logo -->
-          <img src="assets/images/logo800px.png" height="100px" alt="Hot Oven Bakery Logo">
+          <img src="assets/images/logo800px.png" height="100" alt="Hot Oven Bakery Logo">
         </a>
       </div>
 
@@ -50,15 +50,15 @@
 
       <!-- Navigation section-->
       <div class="flex-item">
-        <nav role="navigation">
+        <nav>
           <!-- Navigation links -->
           <ul class="navigation">
             <!-- Home Link -->
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" aria-label="Go to the homepage">Home</a></li>
             <!-- Shop Link -->
-            <li><a href="shop.html">Shop</a></li>
+            <li><a href="shop.html" aria-label="Visit the shop">Shop</a></li>
             <!-- Contact Link -->
-            <li class="active"><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="contact.html" aria-label="Contact us">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -70,7 +70,7 @@
     <!-- Information about our team -->
     <section>
       <!-- Heading for the team section -->
-      <h1 class="mb-3">Meet Our Passionate Baking Family</h1>
+      <h2 class="mb-3">Meet Our Passionate Baking Family</h2>
       <!-- Flexbox layout for team information -->
       <div class="flex-baguett">
         <!-- Team image container -->
@@ -91,105 +91,126 @@
         </div>
       </div>
 
-      <!-- Contact Form Section -->
-      <section>
-        <div class="container mt-5">
-          <div class="row">
-            <div class="col-md-8 mx-auto">
-              <!-- Heading for the contact form section -->
-              <h2>Contact Us</h2>
+    </section>
+    <!-- Contact Form Section -->
+    <section>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <!-- Heading for the contact form section -->
+            <h2>Contact Us</h2>
 
-              <!-- Bootstrap Form -->
-              <form action="https://formdump.codeinstitute.net" method="post">
+            <!-- Bootstrap Form -->
+            <form method="GET" action="response.html">
 
-                <!-- Name Input -->
-                <div class="mb-3">
-                  <label for="name" class="form-label">Your Name:</label>
-                  <input type="text" class="form-control" id="name" name="name" required>
+              <!-- Name Input -->
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name:</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" required
+                  aria-describedby="name-help">
+                <div id="name-help" class="sr-only">Please enter your full name.</div>
+              </div>
+
+              <!-- Phone Input (Optional) -->
+              <div class="mb-3">
+                <label for="phone" class="form-label">Your Phone (Optional)</label>
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Your Phone"
+                  aria-describedby="phone-description">
+                <div id="phone-description" class="sr-only">Enter your phone number if you'd like us to contact you.
                 </div>
+              </div>
 
-                <!-- Phone Input  (Optional)-->
-                <div class="mb-3">
-                  <label for="phone" class="form-label">Your Phone (Optional)</label>
-                  <input type="tel" class="form-control" id="phone" name="phone">
-                </div>
+              <!-- Email Input -->
+              <div class="mb-3">
+                <label for="email" class="form-label">Your Email:</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required
+                  aria-describedby="email-description">
+                <div id="email-description" class="sr-only">Please enter a valid email address.</div>
+              </div>
 
-                <!-- Email Input -->
-                <div class="mb-3">
-                  <label for="email" class="form-label">Your Email:</label>
-                  <input type="email" class="form-control" id="email" name="email" required>
-                </div>
 
-                <!-- Message Textarea -->
-                <div class="mb-3">
-                  <label for="message" class="form-label">Your Message:</label>
-                  <textarea class="form-control" id="message" name="message" rows="9" required></textarea>
-                </div>
+              <!-- Message Textarea -->
+              <div class="mb-3">
+                <label for="message" class="form-label">Your Message:</label>
+                <textarea class="form-control" id="message" name="message" rows="9" required
+                  aria-describedby="message-description"></textarea>
+                <div id="message-description" class="sr-only">Please enter your message.</div>
+              </div>
 
-                <!-- Submit Button -->
-                <button type="submit" class="btn custom-btn mb-3 float-end">Submit</button>
-              </form>
-            </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn custom-btn mb-3 float-end">Submit</button>
+            </form>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Customer Reviews Section -->
-      <section class="mt-5">
-        <!-- Heading for the customer reviews section -->
-        <h2>Become our happy customer</h2>
-        <!-- Flexbox layout for customer reviews -->
-        <div class="flex-cards">
+    <!-- Customer Reviews Section -->
+    <section class="mt-5">
+      <!-- Heading for the customer reviews section -->
+      <h2>Become our happy customer</h2>
+      <!-- Flexbox layout for customer reviews -->
+      <div class="flex-cards">
 
-          <!-- Customer-1 -->
-          <div class="card mx-3">
-            <!-- Customer-1 Image -->
-            <img class="card-img-top" src="assets/images/review-1.jpg" alt="Photo of Emma H. - Happy Customer">
-            <div class="card-body text-center">
-              <!-- Customer-1 Name -->
-              <h5 class="card-title">Emma H.</h5>
-              <!-- Customer-1 Review -->
-              <p class="card-text">"A taste of France right at my doorstep! These French Baguettes are a delightful
-                treat,
-                bringing the warmth and charm of French baking to my daily routine. A must-try for anyone who
-                appreciates
-                the art of breadmaking."</p>
-            </div>
-          </div>
-
-          <!-- Customer-2 -->
-          <div class="card">
-            <!-- Customer-2 Image -->
-            <img class="card-img-top" src="assets/images/review-2.jpg" alt="Photo of Oliver Smith - Happy Customer">
-            <div class="card-body text-center">
-              <!-- Customer-2 Name -->
-              <h5 class="card-title">Oliver Smith</h5>
-              <!-- Customer-2 Review -->
-              <p class="card-text">This bread is a game-changer! It brings joy to my meals with its rich, hearty
-                taste.
-                Perfect for any occasion, it's become a staple in my kitchen. <br>A must-try for all bread lovers out
-                there! Delicious, Nutritious, Simply Amazing!</p>
-            </div>
-          </div>
-
-          <!-- Customer-3 -->
-          <div class="card mx-3">
-            <!-- Customer-3 Image -->
-            <img class="card-img-top" src="assets/images/review-3.jpg" alt="Photo of Hope W. - Happy Customer">
-            <div class="card-body text-center">
-              <!-- Customer-3 Name -->
-              <h5 class="card-title">Hope W.</h5>
-              <!-- Customer-3 Review -->
-              <p class="card-text">Starting my day right with heavenly pastries from this bakery! The delicious aroma
-                and
-                flavors make my morning commute a sweet delight. A wonderful daily ritual that brings joy to my
-                routine.
-                Highly recommend trying these delightful treats!</p>
-            </div>
+        <!-- Customer-1 -->
+        <div class="card mx-3">
+          <!-- Customer-1 Image -->
+          <img class="card-img-top" src="assets/images/review-1.jpg" alt="Photo of Emma H. - Happy Customer">
+          <div class="card-body text-center">
+            <!-- Customer-1 Name -->
+            <h5 class="card-title">Emma H.</h5>
+            <!-- Customer-1 Review -->
+            <p class="card-text">"A taste of France right at my doorstep! These French Baguettes are a delightful
+              treat,
+              bringing the warmth and charm of French baking to my daily routine. A must-try for anyone who
+              appreciates
+              the art of breadmaking."</p>
           </div>
         </div>
-      </section>
+
+        <!-- Customer-2 -->
+        <div class="card">
+          <!-- Customer-2 Image -->
+          <img class="card-img-top" src="assets/images/review-2.jpg" alt="Photo of Oliver Smith - Happy Customer">
+          <div class="card-body text-center">
+            <!-- Customer-2 Name -->
+            <h5 class="card-title">Oliver Smith</h5>
+            <!-- Customer-2 Review -->
+            <p class="card-text">This bread is a game-changer! It brings joy to my meals with its rich, hearty
+              taste.
+              Perfect for any occasion, it's become a staple in my kitchen. <br>A must-try for all bread lovers out
+              there! Delicious, Nutritious, Simply Amazing!</p>
+          </div>
+        </div>
+
+        <!-- Customer-3 -->
+        <div class="card mx-3">
+          <!-- Customer-3 Image -->
+          <img class="card-img-top" src="assets/images/review-3.jpg" alt="Photo of Hope W. - Happy Customer">
+          <div class="card-body text-center">
+            <!-- Customer-3 Name -->
+            <h5 class="card-title">Hope W.</h5>
+            <!-- Customer-3 Review -->
+            <p class="card-text">Starting my day right with heavenly pastries from this bakery! The delicious aroma
+              and
+              flavors make my morning commute a sweet delight. A wonderful daily ritual that brings joy to my
+              routine.
+              Highly recommend trying these delightful treats!</p>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <!-- Return to Top link -->
+  <div class="mt-5 mb-5">
+    <h3>
+      <a href="#top" class="return-link" aria-label="Return to Top to check the information">
+        <i class="fas fa-arrow-up"></i>&nbsp; Return to Top
+      </a>
+    </h3>
+  </div>
 
   <!-- Footer section -->
   <footer class="text-center">
@@ -197,7 +218,7 @@
       <div class="row">
         <!-- Logo -->
         <div class="col-lg-3 footer-logo">
-          <a href="index.html">
+          <a href="index.html" aria-label="Return to Homepage to learn more about our bakery">
             <img src="assets/images/logo800px.png" alt="Hot Oven Bakery Logo">
           </a>
         </div>
@@ -205,36 +226,41 @@
         <div class="col-lg-6 footer-address">
           <p>Visit us at:</p>
           <address tabindex="0">
-            123 Main Street<br />
-            Cardiff<br />
+            123 Main Street<br>
+            Cardiff<br>
             CF10 2FY
           </address>
           <!-- Email address with a link -->
           <p>
             Contact us at:
-            <a href="mailto:hot.oven@gmail.com">hot.oven@gmail.com</a>
+            <a href="mailto:hot.oven@gmail.com" aria-label="Send an email to hot.oven@gmail.com">hot.oven@gmail.com</a>
+
           </p>
         </div>
         <!-- Other footer elements -->
         <div class="col-lg-3 social-icons">
           <ul class="list-unstyled">
             <li>
-              <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page">
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+                aria-label="Visit our Instagram page">
                 <i class="fab fa-instagram" aria-hidden="true"></i>
               </a>
             </li>
             <li>
-              <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page">
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
+                aria-label="Visit our Facebook page">
                 <i class="fab fa-facebook-square" aria-hidden="true"></i>
               </a>
             </li>
             <li>
-              <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page">
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
+                aria-label="Visit our Twitter page">
                 <i class="fab fa-twitter-square" aria-hidden="true"></i>
               </a>
             </li>
             <li>
-              <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube channel">
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"
+                aria-label="Visit our YouTube channel">
                 <i class="fab fa-youtube" aria-hidden="true"></i>
               </a>
             </li>
@@ -245,12 +271,16 @@
       <div class="row mt-4">
         <div class="col-lg-12">
           <p class="footer-copyright">
-            &copy; 2024 Artem Bryzh. All rights reserved.
+            &copy; 2024 <a href="https://www.linkedin.com/in/artem-bryzh-43109a176/" target="_blank"
+              rel="noopener noreferrer" aria-label="Artem Bryzh LinkedIn Profile">Artem Bryzh</a>. All rights
+            reserved.
           </p>
+
         </div>
       </div>
     </div>
   </footer>
+
   <!--Script for icons "Font Awesome"-->
   <script src="https://kit.fontawesome.com/d63b433288.js" crossorigin="anonymous"></script>
 </body>
