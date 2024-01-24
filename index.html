@@ -37,9 +37,9 @@
     <div class="flex-container">
       <!-- Logo section-->
       <div class="flex-item">
-        <a href="index.html">
+        <a href="index.html" aria-label="Return to Homepage to learn more about our bakery">
           <!-- Hot Oven Bakery Logo -->
-          <img src="assets/images/logo800px.png" height="100px" alt="Hot Oven Bakery Logo">
+          <img src="assets/images/logo800px.png" height="100" alt="Hot Oven Bakery Logo">
         </a>
       </div>
 
@@ -51,15 +51,15 @@
 
       <!-- Navigation section-->
       <div class="flex-item">
-        <nav role="navigation">
+        <nav>
           <!-- Navigation links -->
           <ul class="navigation">
             <!-- Home Link -->
-            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="index.html" aria-label="Go to the homepage">Home</a></li>
             <!-- Shop Link -->
-            <li><a href="shop.html">Shop</a></li>
+            <li><a href="shop.html" aria-label="Visit the shop">Shop</a></li>
             <!-- Contact Link -->
-            <li><a href="contact.html">Contact</a></li>
+            <li class="active"><a href="contact.html" aria-label="Contact us">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -68,6 +68,7 @@
 
   <!-- Main part of index page -->
   <main class="mt-3">
+    <h2 class="mb-3">Latest News and Articles</h2>
     <!-- Section with a row containing two columns, each occupying half of the width on large screens -->
     <section>
       <!-- <h1 class="mb-3">Our Latest News and Articles</h1> -->
@@ -75,13 +76,13 @@
         <!-- First column (left) with a large image -->
         <div class="col-lg-6">
           <figure class="image-container">
-            <a href="shop.html">
+            <a href="shop.html" aria-label="Visit the Bakery Shop and get more information about Hot Deal">
               <img src="assets/images/fresh-french-baguettes.jpg" class="img-fluid"
                 alt="Fresh French baguettes on sale">
-              <figcaption>
-                <h3>Hot Deal: Currently Discounted and Popular Item</h3>
-              </figcaption>
             </a>
+            <figcaption>
+              <h3>Hot Deal: Currently Discounted and Popular Item</h3>
+            </figcaption>
           </figure>
         </div>
         <!-- Second column (right) with another row containing four columns on small screens -->
@@ -90,46 +91,47 @@
             <!-- First column (top left) with a small image and caption -->
             <div class="col-sm-6">
               <figure class="image-container">
-                <a href="reflect-rye.html">
+                <a href="reflect-rye.html" aria-label="Explore the article: Reflecting on Rye">
                   <img src="assets/images/rye-spike.jpg" class="img-fluid"
                     alt="Rye ear with a caption Reflecting on Rye">
-                  <figcaption>
-                    <h3>Reflecting on Rye</h3>
-                  </figcaption>
                 </a>
+                <figcaption>
+                  <h3>Reflecting on Rye</h3>
+                </figcaption>
+
               </figure>
             </div>
             <!-- Second column (top right) with a small image and caption -->
             <div class="col-sm-6">
               <figure class="image-container">
-                <a href="ukr-bread.html">
+                <a href="ukr-bread.html" aria-label="Explore the article: Try Ukrainian Bread">
                   <img src="assets/images/ukrainian-bread.jpg" class="img-fluid" alt="Photograph of Ukrainian bread">
-                  <figcaption>
-                    <h3>Try Ukrainian Bread</h3>
-                  </figcaption>
                 </a>
+                <figcaption>
+                  <h3>Try Ukrainian Bread</h3>
+                </figcaption>
               </figure>
             </div>
             <!-- Third column (bottom left) with a small image and caption -->
             <div class="col-sm-6">
               <figure class="image-container">
-                <a href="health-bread.html">
+                <a href="health-bread.html" aria-label="Explore the article: Healthy Bread recipe">
                   <img src="assets/images/healthy-bread.jpg" class="img-fluid" alt="Photo of Healthy Bread">
-                  <figcaption>
-                    <h3>Healthy Bread recipe</h3>
-                  </figcaption>
                 </a>
+                <figcaption>
+                  <h3>Healthy Bread recipe</h3>
+                </figcaption>
               </figure>
             </div>
             <!-- Fourth column (bottom right) with a small image and caption -->
             <div class="col-sm-6">
               <figure class="image-container">
-                <a href="february-2024.html">
+                <a href="february-2024.html" aria-label="Explore the schedule of our Bakery School in February 2024">
                   <img src="assets/images/bakery-school.jpg" class="img-fluid" alt="Photo of Baker and Apprentice">
-                  <figcaption>
-                    <h3>February Bakery School</h3>
-                  </figcaption>
                 </a>
+                <figcaption>
+                  <h3>February Bakery School</h3>
+                </figcaption>
               </figure>
             </div>
           </div>
@@ -140,14 +142,13 @@
     <!-- Video about the bakery -->
     <section class="container mt-3 mb-5">
       <!-- Heading for the video section -->
-      <h1>How We Make Our Bread</h1>
+      <h2>How We Make Our Bread</h2>
       <!-- Embedding YouTube video using an iframe -->
       <div class="video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/dSnR7x6b4cc?si=6ZykH9BplB3k5VPI"
-          title="YouTube video player" frameborder="0"
+          title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-          alt="Crafting Delicious Bread: Behind the Scenes in Our Bakery, showcasing all stages of bread production"></iframe>
+          allowfullscreen aria-label="How We Make Our Bread - Video"></iframe>
       </div>
       <!-- Description related to the video -->
       <p class="text-center">
@@ -156,50 +157,65 @@
     </section>
   </main>
 
+  <!-- Return to Top link -->
+  <div class="mt-5 mb-5">
+    <h3>
+      <a href="#top" class="return-link" aria-label="Return to Top to learn more about our bakery">
+        <i class="fas fa-arrow-up"></i>&nbsp; Return to Top
+      </a>
+    </h3>
+  </div>
+
+
   <!-- Footer section -->
   <footer class="text-center">
     <div class="container">
       <div class="row">
         <!-- Logo -->
         <div class="col-lg-3 footer-logo">
-          <a href="index.html">
-            <img src="assets/images/logo800px.png" alt="Hot Oven Bakery Logo" />
+          <a href="index.html" aria-label="Refresh the Homepage">
+            <img src="assets/images/logo800px.png" alt="Hot Oven Bakery Logo">
           </a>
         </div>
         <!-- Contact us section -->
         <div class="col-lg-6 footer-address">
           <p>Visit us at:</p>
           <address tabindex="0">
-            123 Main Street<br />
-            Cardiff<br />
+            123 Main Street<br>
+            Cardiff<br>
             CF10 2FY
           </address>
           <!-- Email address with a link -->
           <p>
             Contact us at:
-            <a href="mailto:hot.oven@gmail.com">hot.oven@gmail.com</a>
+            <a href="mailto:hot.oven@gmail.com" aria-label="Send an email to hot.oven@gmail.com">hot.oven@gmail.com</a>
+
           </p>
         </div>
         <!-- Other footer elements -->
         <div class="col-lg-3 social-icons">
           <ul class="list-unstyled">
             <li>
-              <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page">
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+                aria-label="Visit our Instagram page">
                 <i class="fab fa-instagram" aria-hidden="true"></i>
               </a>
             </li>
             <li>
-              <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page">
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
+                aria-label="Visit our Facebook page">
                 <i class="fab fa-facebook-square" aria-hidden="true"></i>
               </a>
             </li>
             <li>
-              <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page">
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"
+                aria-label="Visit our Twitter page">
                 <i class="fab fa-twitter-square" aria-hidden="true"></i>
               </a>
             </li>
             <li>
-              <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="Visit our YouTube channel">
+              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"
+                aria-label="Visit our YouTube channel">
                 <i class="fab fa-youtube" aria-hidden="true"></i>
               </a>
             </li>
@@ -210,12 +226,15 @@
       <div class="row mt-4">
         <div class="col-lg-12">
           <p class="footer-copyright">
-            &copy; 2024 Artem Bryzh. All rights reserved.
+            &copy; 2024 <a href="https://www.linkedin.com/in/artem-bryzh-43109a176/" target="_blank"
+              rel="noopener noreferrer" aria-label="Artem Bryzh LinkedIn Profile">Artem Bryzh</a>. All rights reserved.
           </p>
+
         </div>
       </div>
     </div>
   </footer>
+
   <!--Script for icons "Font Awesome"-->
   <script src="https://kit.fontawesome.com/d63b433288.js" crossorigin="anonymous"></script>
 </body>
