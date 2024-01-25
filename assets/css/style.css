@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald:100,200,300,400,500,600,700|Quicksand:100,200,300,400,500,600,700|Pacifico:100,200,300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,600|Quicksand:100,200,300,400|Pacifico:400");
 
 /* Reset default margin, padding, and border for all elements */
 * {
@@ -12,6 +12,7 @@ body {
   margin: 20px 20px;
   font-family: Quicksand, sans-serif;
   font-size: 16px;
+  color: #444444;
 }
 
 /* Style the header with a bottom border and padding */
@@ -62,7 +63,7 @@ h4 {
   font-family: Pacifico, sans-serif;
   font-size: 2.1em;
   font-style: italic;
-  font-weight: 100;
+  font-weight: 400;
   color: #808080;
 }
 
@@ -164,7 +165,7 @@ h4 {
 .flex-txt-team {
   width: 50%;
   padding: 20px;
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 /* Custom styles for the button */
@@ -184,7 +185,7 @@ h4 {
 
 /* Article pages */
 article {
-  color: #444444;
+  /* color: #444444; */
   max-width: 900px;
   margin: 0 auto;
 }
