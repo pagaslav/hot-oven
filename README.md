@@ -133,21 +133,21 @@ This carefully curated color scheme reflects the essence of Hot Oven Bakery, mar
 
 **Main Font - Oswald**
 
-![Main Font](documentation/Oswald.jpg)
+![Main Font](documentation/oswald.jpg)
 
 - **Typeface:** Oswald, sans-serif
 - **Usage:** Oswald is utilised for menu items, return links, all headings, and prominent textual elements throughout the website. Its clean and modern design enhances readability and maintains a cohesive look across different sections.
 
 **Accent Font - Pacifico**
 
-![Accent Font](documentation/Pacifico.jpg)
+![Accent Font](documentation/pacifico.jpg)
 
 - **Typeface:** Pacifico, cursive
 - **Usage:** Pacifico is exclusively reserved for the slogan, adding a touch of personality and creativity to the phrase "Crafted for You." This font choice aims to create a memorable impression and emphasize the unique character of our bakery.
 
 **Body Text Font - Quicksand**
 
-![Body Text Font](documentation/Quicksand.jpg)
+![Body Text Font](documentation/quicksand.jpg)
 
 - **Typeface:** Quicksand, sans-serif
 - **Usage:** Quicksand is employed for the main body text in articles and descriptions. With its balanced and versatile style, Quicksand ensures a comfortable reading experience, promoting clarity and engagement with the content.
