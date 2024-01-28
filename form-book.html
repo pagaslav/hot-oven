@@ -87,139 +87,146 @@
                   aria-describedby="name-help">
                 <div id="name-help" class="form-text">Enter your full name, including first and last names.</div>
               </div>
-          </div>
-
-          <!-- Phone Input  (Optional) -->
-          <div class="mb-3">
-            <label for="phone" class="form-label">Your Phone (Optional):</label>
-            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Your Phone"
-              aria-describedby="phone-description">
-            <div id="phone-description" class="form-text">Enter your phone number if you'd like us to contact you.
-            </div>
-          </div>
 
 
-          <!-- Email Input-->
-          <div class="mb-3">
-            <label for="email" class="form-label">Your Email:</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required
-              aria-describedby="email-help">
-            <div id="email-help" class="form-text">Enter a valid email address to receive updates and notifications.
-            </div>
-          </div>
+              <!-- Phone Input  (Optional) -->
+              <div class="mb-3">
+                <label for="phone" class="form-label">Your Phone (Optional):</label>
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Your Phone"
+                  aria-describedby="phone-description">
+                <div id="phone-description" class="form-text">Enter your phone number if you'd like us to contact you.
+                </div>
+              </div>
 
-          <!-- Checkbox and quantity input for each product -->
-          <h3 style="text-align: left;">Select Products:</h3>
-          <!-- Checkbox and quantity input for French Baguettes -->
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="product-french-baguettes" name="products[]"
-              value="French Baguettes">
-            <label class="form-check-label" for="product-french-baguettes">French Baguettes (1-20)</label>
-            <input type="number" class="form-control mb-3" id="quantity-french-baguettes"
-              name="quantity_french_baguettes" placeholder="Quantity" min="1" max="20"
-              aria-labelledby="product-french-baguettes">
-          </div>
-          <!-- Checkbox and quantity input for Sourdough Bread -->
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="sourdough-bread" name="products[]"
-              value="Sourdough Bread">
-            <label class="form-check-label" for="sourdough-bread">Sourdough Bread (1-10)</label>
-            <input type="number" class="form-control mb-3" id="quantity-sourdough-bread" name="quantity_sourdough_bread"
-              placeholder="Quantity" min="1" max="10" aria-labelledby="sourdough-bread">
-          </div>
-          <!-- Checkbox and quantity input for Toast Bread -->
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="toast-bread" name="products[]" value="Toast Bread">
-            <label class="form-check-label" for="toast-bread">Toast Bread (1-10)</label>
-            <input type="number" class="form-control mb-3" id="quantity-toast-bread" name="quantity_toast_bread"
-              placeholder="Quantity" min="1" max="10" aria-labelledby="toast-bread">
-          </div>
-          <!-- Checkbox and quantity input for Ciabatta -->
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="product-ciabatta" name="products[]" value="Ciabatta">
-            <label class="form-check-label" for="product-ciabatta">Ciabatta (1-20)</label>
-            <input type="number" class="form-control mb-3" id="quantity-ciabatta" name="quantity_ciabatta"
-              placeholder="Quantity" min="1" max="20" aria-labelledby="product-ciabatta">
-          </div>
-          <!-- Checkbox and quantity input for Gluten-Free Bread -->
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="product-gluten-free-bread" name="products[]"
-              value="Gluten-Free Bread">
-            <label class="form-check-label" for="product-gluten-free-bread">Gluten-Free Bread (1-10)</label>
-            <input type="number" class="form-control mb-3" id="quantity-gluten-free-bread"
-              name="quantity_gluten_free_bread" placeholder="Quantity" min="1" max="10"
-              aria-labelledby="product-gluten-free-bread">
-          </div>
-          <!-- Checkbox and quantity input for Ukrainian Bread -->
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="ukrainian-bread" name="products[]"
-              value="Ukrainian Bread">
-            <label class="form-check-label" for="ukrainian-bread">Ukrainian Bread (1-10)</label>
-            <input type="number" class="form-control mb-3" id="quantity-ukrainian-bread" name="quantity_ukrainian_bread"
-              placeholder="Quantity" min="1" max="10" aria-labelledby="ukrainian-bread">
-          </div>
-          <!-- Checkbox and quantity input for Apple Crumble -->
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="product-apple-crumble" name="products[]"
-              value="Apple Crumble">
-            <label class="form-check-label" for="product-apple-crumble">Apple Crumble (1-10)</label>
-            <input type="number" class="form-control mb-3" id="quantity-apple-crumble" name="quantity_apple_crumble"
-              placeholder="Quantity" min="1" max="10" aria-labelledby="product-apple-crumble">
-          </div>
-          <!-- Checkbox and quantity input for Sweet Brioche -->
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="sweet-brioche" name="products[]" value="Sweet Brioche">
-            <label class="form-check-label" for="sweet-brioche">Sweet Brioche (1-10)</label>
-            <input type="number" class="form-control mb-3" id="quantity-sweet-brioche" name="quantity_sweet_brioche"
-              placeholder="Quantity" min="1" max="10" aria-labelledby="sweet-brioche">
-          </div>
-          <!-- Checkbox and quantity input for Pumpkin Bread -->
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="pumpkin-bread" name="products[]" value="Pumpkin Bread">
-            <label class="form-check-label" for="pumpkin-bread">Pumpkin Bread (1-10)</label>
-            <input type="number" class="form-control mb-3" id="quantity-pumpkin-bread" name="quantity_pumpkin_bread"
-              placeholder="Quantity" min="1" max="10" aria-labelledby="pumpkin-bread">
-          </div>
-          <!-- Checkbox and quantity input for Daily muffin -->
-          <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="daily-muffin" name="products[]" value="Daily muffin">
-            <label class="form-check-label" for="sweet-brioche">Daily muffin (1-30)</label>
-            <input type="number" class="form-control mb-3" id="quantity-daily-muffin" name="quantity_daily_muffin"
-              placeholder="Quantity" min="1" max="30" aria-labelledby="daily-muffin">
-          </div>
 
-          <!-- Radio buttons for selecting pickup time -->
-          <div class="form-group">
-            <label class="mb-2 mt-3">Select Pickup Time:</label>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" id="early-morning" name="pickup_time" value="early-morning">
-              <label class="form-check-label" for="early-morning">8:00 - 9:55</label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" id="morning" name="pickup_time" value="morning">
-              <label class="form-check-label" for="morning">9:00 - 11:55</label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" id="afternoon" name="pickup_time" value="afternoon">
-              <label class="form-check-label" for="afternoon">12:00 - 14:55</label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" id="evening" name="pickup_time" value="evening">
-              <label class="form-check-label" for="evening">15:00 - 17:55</label>
-            </div>
-          </div>
+              <!-- Email Input-->
+              <div class="mb-3">
+                <label for="email" class="form-label">Your Email:</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required
+                  aria-describedby="email-help">
+                <div id="email-help" class="form-text">Enter a valid email address to receive updates and notifications.
+                </div>
+              </div>
 
-          <!-- Message Textarea -->
-          <div class="mb-3 mt-3">
-            <label for="message" class="form-label">Order Comments Section (Optional):</label>
-            <textarea class="form-control" id="message" name="message" rows="3"></textarea>
-          </div>
+              <!-- Checkbox and quantity input for each product -->
+              <h3 style="text-align: left;">Select Products:</h3>
+              <!-- Checkbox and quantity input for French Baguettes -->
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="product-french-baguettes" name="products[]"
+                  value="French Baguettes">
+                <label class="form-check-label" for="product-french-baguettes">French Baguettes (1-20)</label>
+                <input type="number" class="form-control mb-3" id="quantity-french-baguettes"
+                  name="quantity_french_baguettes" placeholder="Quantity" min="1" max="20"
+                  aria-labelledby="product-french-baguettes">
+              </div>
+              <!-- Checkbox and quantity input for Sourdough Bread -->
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="sourdough-bread" name="products[]"
+                  value="Sourdough Bread">
+                <label class="form-check-label" for="sourdough-bread">Sourdough Bread (1-10)</label>
+                <input type="number" class="form-control mb-3" id="quantity-sourdough-bread"
+                  name="quantity_sourdough_bread" placeholder="Quantity" min="1" max="10"
+                  aria-labelledby="sourdough-bread">
+              </div>
+              <!-- Checkbox and quantity input for Toast Bread -->
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="toast-bread" name="products[]" value="Toast Bread">
+                <label class="form-check-label" for="toast-bread">Toast Bread (1-10)</label>
+                <input type="number" class="form-control mb-3" id="quantity-toast-bread" name="quantity_toast_bread"
+                  placeholder="Quantity" min="1" max="10" aria-labelledby="toast-bread">
+              </div>
+              <!-- Checkbox and quantity input for Ciabatta -->
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="product-ciabatta" name="products[]"
+                  value="Ciabatta">
+                <label class="form-check-label" for="product-ciabatta">Ciabatta (1-20)</label>
+                <input type="number" class="form-control mb-3" id="quantity-ciabatta" name="quantity_ciabatta"
+                  placeholder="Quantity" min="1" max="20" aria-labelledby="product-ciabatta">
+              </div>
+              <!-- Checkbox and quantity input for Gluten-Free Bread -->
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="product-gluten-free-bread" name="products[]"
+                  value="Gluten-Free Bread">
+                <label class="form-check-label" for="product-gluten-free-bread">Gluten-Free Bread (1-10)</label>
+                <input type="number" class="form-control mb-3" id="quantity-gluten-free-bread"
+                  name="quantity_gluten_free_bread" placeholder="Quantity" min="1" max="10"
+                  aria-labelledby="product-gluten-free-bread">
+              </div>
+              <!-- Checkbox and quantity input for Ukrainian Bread -->
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="ukrainian-bread" name="products[]"
+                  value="Ukrainian Bread">
+                <label class="form-check-label" for="ukrainian-bread">Ukrainian Bread (1-10)</label>
+                <input type="number" class="form-control mb-3" id="quantity-ukrainian-bread"
+                  name="quantity_ukrainian_bread" placeholder="Quantity" min="1" max="10"
+                  aria-labelledby="ukrainian-bread">
+              </div>
+              <!-- Checkbox and quantity input for Apple Crumble -->
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="product-apple-crumble" name="products[]"
+                  value="Apple Crumble">
+                <label class="form-check-label" for="product-apple-crumble">Apple Crumble (1-10)</label>
+                <input type="number" class="form-control mb-3" id="quantity-apple-crumble" name="quantity_apple_crumble"
+                  placeholder="Quantity" min="1" max="10" aria-labelledby="product-apple-crumble">
+              </div>
+              <!-- Checkbox and quantity input for Sweet Brioche -->
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="sweet-brioche" name="products[]"
+                  value="Sweet Brioche">
+                <label class="form-check-label" for="sweet-brioche">Sweet Brioche (1-10)</label>
+                <input type="number" class="form-control mb-3" id="quantity-sweet-brioche" name="quantity_sweet_brioche"
+                  placeholder="Quantity" min="1" max="10" aria-labelledby="sweet-brioche">
+              </div>
+              <!-- Checkbox and quantity input for Pumpkin Bread -->
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="pumpkin-bread" name="products[]"
+                  value="Pumpkin Bread">
+                <label class="form-check-label" for="pumpkin-bread">Pumpkin Bread (1-10)</label>
+                <input type="number" class="form-control mb-3" id="quantity-pumpkin-bread" name="quantity_pumpkin_bread"
+                  placeholder="Quantity" min="1" max="10" aria-labelledby="pumpkin-bread">
+              </div>
+              <!-- Checkbox and quantity input for Daily muffin -->
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="daily-muffin" name="products[]"
+                  value="Daily muffin">
+                <label class="form-check-label" for="sweet-brioche">Daily muffin (1-30)</label>
+                <input type="number" class="form-control mb-3" id="quantity-daily-muffin" name="quantity_daily_muffin"
+                  placeholder="Quantity" min="1" max="30" aria-labelledby="daily-muffin">
+              </div>
 
-          <!-- Submit Button -->
-          <button type="submit" class="btn custom-btn mb-3 float-end" aria-label="Submit Order Form">Submit</button>
-          </form>
+              <!-- Radio buttons for selecting pickup time -->
+              <div class="form-group">
+                <label class="mb-2 mt-3">Select Pickup Time:</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" id="early-morning" name="pickup_time"
+                    value="early-morning">
+                  <label class="form-check-label" for="early-morning">8:00 - 9:55</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" id="morning" name="pickup_time" value="morning">
+                  <label class="form-check-label" for="morning">9:00 - 11:55</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" id="afternoon" name="pickup_time" value="afternoon">
+                  <label class="form-check-label" for="afternoon">12:00 - 14:55</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" id="evening" name="pickup_time" value="evening">
+                  <label class="form-check-label" for="evening">15:00 - 17:55</label>
+                </div>
+              </div>
+
+              <!-- Message Textarea -->
+              <div class="mb-3 mt-3">
+                <label for="message" class="form-label">Order Comments Section (Optional):</label>
+                <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn custom-btn mb-3 float-end" aria-label="Submit Order Form">Submit</button>
+            </form>
+          </div>
         </div>
-      </div>
       </div>
     </section>
   </main>
