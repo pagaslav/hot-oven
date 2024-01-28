@@ -848,60 +848,60 @@ In order to make a local copy of this project, you can clone it. In your IDE Ter
 
 **Logo:**
 
-- Bakery Logo Template, floringheorghe, License.
+- Bakery Logo Template, floringheorghe, [License.]
 
-Reflecting on rye photo.
+Reflecting on rye photo, [License.]
 
-Try Ukrainian bread photo.
+Try Ukrainian bread photo, [License.]
 
-Healthy bread photo.
+Healthy bread photo, [License.]
 
-Bakery school photo.
+Bakery school photo, [License.]
 
-Sourdough Bread photo.
+Sourdough Bread photo, [License.]
 
-Toast Bread photo.
+Toast Bread photo, [License.]
 
-Ciabatta photo.
+Ciabatta photo, [License.]
 
-Gluten-Free Bread photo.
+Gluten-Free Bread photo, [License.]
 
-Ukrainian bread photo.
+Ukrainian bread photo, [License.]
 
-Apple Crumble photo.
+Apple Crumble photo, [License.]
 
-Sweet brioche photo.
+Sweet brioche photo, [License.]
 
-Pumpkin Bread photo.
+Pumpkin Bread photo, [License.]
 
-Daily muffin photo.
+Daily muffin photo, [License.]
 
-Our baking family photo.
+Our baking family photo, [License.]
 
-Customer #1 photo.
+Customer #1 photo, [License.]
 
-Customer #2 photo.
+Customer #2 photo, [License.]
 
-Customer #3 photo.
+Customer #3 photo, [License.]
 
 **Audio:**
 
-- Upbeat Motivational Indie, pinkzebra, License.
+- Upbeat Motivational Indie, pinkzebra, [License.](documentation/licenses/audio_license_certificate_M6N8LG27DF.txt)
 
 **Video:**
 
-1. Machine Knead the Dough From Flour Production Plant Bread Plant, aerocaminua, License.
-2. Rolling Out Bread Dough, StockFS, License.
-3. Baking Bread, Duksi, License.
-4. Making a Loaf of Bread in the Bakery, aerocaminua, License.
-5. Baking of Bread at the Bakery, stockfilmstudio, License.
-6. Baking of Bread, stockfilmstudio, License.
-7. Bread Oven, Duksi, License.
-8. Bread Dough Comes to the Bread Oven, yurgentum, License.
-9. Timelapse Baking Bread in the Oven, yurgentum, License.
-10. A Baker Puts Bread on a Shelf in a Bakery Baking Bread, Vincent2004, License.
-11. Bread on the Shelves, stockfilmstudio, License.
-12. White bread, leungchopan, License.
+1. Machine Knead the Dough From Flour Production Plant Bread Plant, aerocaminua, [License.]
+2. Rolling Out Bread Dough, StockFS, [License.]
+3. Baking Bread, Duksi, [License.]
+4. Making a Loaf of Bread in the Bakery, aerocaminua, [License.]
+5. Baking of Bread at the Bakery, stockfilmstudio, [License.]
+6. Baking of Bread, stockfilmstudio, [License.]
+7. Bread Oven, Duksi, [License.]
+8. Bread Dough Comes to the Bread Oven, yurgentum, [License.]
+9. Timelapse Baking Bread in the Oven, yurgentum, [License.]
+10. A Baker Puts Bread on a Shelf in a Bakery Baking Bread, Vincent2004, [License.]
+11. Bread on the Shelves, stockfilmstudio, [License.]
+12. White bread, leungchopan, [License.]
 
 ## Credits and **Acknowledgments**
 
