@@ -8,8 +8,6 @@ View the live site [here](https://pagaslav.github.io/hot-oven)
 
 ## Introduction
 
----
-
 The **Hot Oven Bakery** website provides information about our range of baked goods, including French baguettes, sourdough, sweet baked goods and gluten-free options. You can easily place orders online, choose flexible pickup times, and contact us for inquiries or feedback. Our goal is to offer a straightforward and convenient experience, making artisanal baking accessible to everyone.
 
 ## **Project Goals**
@@ -848,62 +846,48 @@ In order to make a local copy of this project, you can clone it. In your IDE Ter
 
 **Logo:**
 
-- Bakery Logo Template, floringheorghe, [License.]
-
-Reflecting on rye photo, [License.]
-
-Try Ukrainian bread photo, [License.]
-
-Healthy bread photo, [License.]
-
-Bakery school photo, [License.]
-
-Sourdough Bread photo, [License.]
-
-Toast Bread photo, [License.]
-
-Ciabatta photo, [License.]
-
-Gluten-Free Bread photo, [License.]
-
-Ukrainian bread photo, [License.]
-
-Apple Crumble photo, [License.]
-
-Sweet brioche photo, [License.]
-
-Pumpkin Bread photo, [License.]
-
-Daily muffin photo, [License.]
-
-Our baking family photo, [License.]
-
-Customer #1 photo, [License.]
-
-Customer #2 photo, [License.]
-
-Customer #3 photo, [License.]
+1. Bakery Logo Template, floringheorghe, [License.](documentation/licenses/photos/image-1-license-certificate.txt)
+2. Reflecting on rye photo, [License.](documentation/licenses/photos/image-2-license-certificate.txt)
+3. Try Ukrainian bread photo, [License.](documentation/licenses/photos/image-3-license-certificate.txt)
+4. Bakery school photo, [License.](documentation/licenses/photos/image-4-license-certificate.txt)
+5. Sourdough Bread photo, [License.](documentation/licenses/photos/image-5-license-certificate.txt)
+6. Toast Bread photo, [License.](documentation/licenses/photos/image-6-license-certificate.txt)
+7. Ciabatta photo, [License.](documentation/licenses/photos/image-7-license-certificate.txt)
+8. Gluten-Free Bread photo, [License.](documentation/licenses/photos/image-8-license-certificate.txt)
+9. Ukrainian bread photo, [License.](documentation/licenses/photos/image-9-license-certificate.txt)
+10. Apple Crumble photo, [License.](documentation/licenses/photos/image-10-license-certificate.txt)
+11. Sweet brioche photo, [License.](documentation/licenses/photos/image-11-license-certificate.txt)
+12. Pumpkin Bread photo, [License.](documentation/licenses/photos/image-12-license-certificate.txt)
+13. Daily muffin photo, [License.](documentation/licenses/photos/image-13-license-certificate.txt)
+14. Our baking family photo, [License.](documentation/licenses/photos/image-14-license-certificate.txt)
+15. Customer #1 photo, [License.](documentation/licenses/photos/image-15-license-certificate.txt)
+16. Customer #2 photo, [License.](documentation/licenses/photos/image-16-license-certificate.txt)
+17. Customer #3 photo, [License.](documentation/licenses/photos/image-17-license-certificate.txt)
+18. Fresh french baguettes, [License.](documentation/licenses/photos/image-18-license-certificate.txt)
+19.  Healthy bread photo, [License.](documentation/licenses/photos/image-19-license-certificate.txt)
 
 **Audio:**
 
-- Upbeat Motivational Indie, pinkzebra, [License.](documentation/licenses/audio_license_certificate_M6N8LG27DF.txt)
+- Upbeat Motivational Indie, pinkzebra, [License.](documentation/licenses/audio_license_certificate.txt)
 
 **Video:**
 
-1. Machine Knead the Dough From Flour Production Plant Bread Plant, aerocaminua, [License.](documentation/licenses/videos/video_1_license_certificate_NJWHERCSZA.txt)
-2. Rolling Out Bread Dough, StockFS, [License.](documentation/licenses/videos/video_2_license_certificate_7JMCWL5GT6.txt)
-3. Baking Bread, Duksi, [License.](documentation/licenses/videos/video_3_license_certificate_GR8DS75KYF.txt)
-4. Making a Loaf of Bread in the Bakery, aerocaminua, [License.](documentation/licenses/videos/video_4_license_certificate_Q4BGNHCJZY.txt)
-5. Baking of Bread at the Bakery, stockfilmstudio, [License.](documentation/licenses/videos/video_5_license_certificate_YSDM4RKF2P.txt)
-6. Baking of Bread, stockfilmstudio, [License.](documentation/licenses/videos/video_6_license_certificate_WFKSRZX78A.txt)
-7. Bread Oven, Duksi, [License.](documentation/licenses/videos/video_7_license_certificate_9ANW7R6BU8.txt)
-8. Bread Dough Comes to the Bread Oven, yurgentum, [License.](documentation/licenses/videos/video_8_license_certificate_QGK5FR2PXZ.txt)
-9. Timelapse Baking Bread in the Oven, yurgentum, [License.](documentation/licenses/videos/video_9_license_certificate_68MUNWQBVS.txt)
-10. A Baker Puts Bread on a Shelf in a Bakery Baking Bread, Vincent2004, [License.](documentation/licenses/videos/video_10_license_certificate_FMBHAZ7EQS.txt)
-11. Bread on the Shelves, stockfilmstudio, [License.](documentation/licenses/videos/video_11_license_certificate_YS45VURX69.txt)
-12. White bread, leungchopan, [License.](documentation/licenses/videos/video_12_license_certificate_9SKMP2LQJX.txt)
+1. Machine Knead the Dough From Flour Production Plant Bread Plant, aerocaminua, [License.](documentation/licenses/videos/video_1_license_certificate.txt)
+2. Rolling Out Bread Dough, StockFS, [License.](documentation/licenses/videos/video_2_license_certificate.txt)
+3. Baking Bread, Duksi, [License.](documentation/licenses/videos/video_3_license_certificate.txt)
+4. Making a Loaf of Bread in the Bakery, aerocaminua, [License.](documentation/licenses/videos/video_4_license_certificate.txt)
+5. Baking of Bread at the Bakery, stockfilmstudio, [License.](documentation/licenses/videos/video_5_license_certificate.txt)
+6. Baking of Bread, stockfilmstudio, [License.](documentation/licenses/videos/video_6_license_certificate.txt)
+7. Bread Oven, Duksi, [License.](documentation/licenses/videos/video_7_license_certificate.txt)
+8. Bread Dough Comes to the Bread Oven, yurgentum, [License.](documentation/licenses/videos/video_8_license_certificate.txt)
+9. Timelapse Baking Bread in the Oven, yurgentum, [License.](documentation/licenses/videos/video_9_license_certificate.txt)
+10. A Baker Puts Bread on a Shelf in a Bakery Baking Bread, Vincent2004, [License.](documentation/licenses/videos/video_10_license_certificate.txt)
+11. Bread on the Shelves, stockfilmstudio, [License.](documentation/licenses/videos/video_11_license_certificate.txt)
+12. White bread, leungchopan, [License.](documentation/licenses/videos/video_12_license_certificate.txt)
+13. Female staff serving bread at bakery store, [License.]()
+14. Bread Displayed By the Baker Assortment of Spanish Baguette and Traditional Bakery Shop Desserts, [License.]()
 
-## Credits and **Acknowledgments**
+## **Acknowledgments**
 
 ---
 
