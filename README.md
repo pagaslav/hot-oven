@@ -890,18 +890,18 @@ Customer #3 photo, [License.]
 
 **Video:**
 
-1. Machine Knead the Dough From Flour Production Plant Bread Plant, aerocaminua, [License.]
-2. Rolling Out Bread Dough, StockFS, [License.]
-3. Baking Bread, Duksi, [License.]
-4. Making a Loaf of Bread in the Bakery, aerocaminua, [License.]
-5. Baking of Bread at the Bakery, stockfilmstudio, [License.]
-6. Baking of Bread, stockfilmstudio, [License.]
-7. Bread Oven, Duksi, [License.]
-8. Bread Dough Comes to the Bread Oven, yurgentum, [License.]
-9. Timelapse Baking Bread in the Oven, yurgentum, [License.]
-10. A Baker Puts Bread on a Shelf in a Bakery Baking Bread, Vincent2004, [License.]
-11. Bread on the Shelves, stockfilmstudio, [License.]
-12. White bread, leungchopan, [License.]
+1. Machine Knead the Dough From Flour Production Plant Bread Plant, aerocaminua, [License.](documentation/licenses/videos/video_1_license_certificate_NJWHERCSZA.txt)
+2. Rolling Out Bread Dough, StockFS, [License.](documentation/licenses/videos/video_2_license_certificate_7JMCWL5GT6.txt)
+3. Baking Bread, Duksi, [License.](documentation/licenses/videos/video_3_license_certificate_GR8DS75KYF.txt)
+4. Making a Loaf of Bread in the Bakery, aerocaminua, [License.](documentation/licenses/videos/video_4_license_certificate_Q4BGNHCJZY.txt)
+5. Baking of Bread at the Bakery, stockfilmstudio, [License.](documentation/licenses/videos/video_5_license_certificate_YSDM4RKF2P.txt)
+6. Baking of Bread, stockfilmstudio, [License.](documentation/licenses/videos/video_6_license_certificate_WFKSRZX78A.txt)
+7. Bread Oven, Duksi, [License.](documentation/licenses/videos/video_7_license_certificate_9ANW7R6BU8.txt)
+8. Bread Dough Comes to the Bread Oven, yurgentum, [License.](documentation/licenses/videos/video_8_license_certificate_QGK5FR2PXZ.txt)
+9. Timelapse Baking Bread in the Oven, yurgentum, [License.](documentation/licenses/videos/video_9_license_certificate_68MUNWQBVS.txt)
+10. A Baker Puts Bread on a Shelf in a Bakery Baking Bread, Vincent2004, [License.](documentation/licenses/videos/video_10_license_certificate_FMBHAZ7EQS.txt)
+11. Bread on the Shelves, stockfilmstudio, [License.](documentation/licenses/videos/video_11_license_certificate_YS45VURX69.txt)
+12. White bread, leungchopan, [License.](documentation/licenses/videos/video_12_license_certificate_9SKMP2LQJX.txt)
 
 ## Credits and **Acknowledgments**
 
