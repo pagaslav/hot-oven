@@ -7,9 +7,8 @@ View the live site [here](https://pagaslav.github.io/hot-oven)
 ## Introduction
 
 The **Hot Oven Bakery** website provides information about our range of baked goods, including French baguettes, sourdough, sweet baked goods and gluten-free options. You can easily place orders online, choose flexible pickup times, and contact us for inquiries or feedback. Our goal is to offer a straightforward and convenient experience, making artisanal baking accessible to everyone.
---
 
-## **Project Goals**
+## Project Goals
 
 The Hot Oven Bakery website aims to offer a seamless and enjoyable experience for users interested in our artisanal baked goods. Key goals include:
 
@@ -22,17 +21,16 @@ The Hot Oven Bakery website aims to offer a seamless and enjoyable experience fo
 
 By achieving these goals, Hot Oven Bakery strives to make high-quality, freshly baked goods easily accessible while maintaining a personalized and engaging interaction with its customers.
 
---
 
-## **User Stories**
+## User Stories**
 
-### **First Time Visitor Goals:**
+### First Time Visitor Goals:
 
 1. As a first-time visitor, I want to easily grasp the purpose of the Hot Oven Bakery website, allowing me to understand more about the bakery and its offerings.
 2. As a first-time visitor, I aim to navigate effortlessly through the website, ensuring a smooth and intuitive browsing experience to find the desired content.
 3. As a first-time visitor, I look forward to reading testimonials to gauge the trustworthiness of Hot Oven Bakery and the quality of its baked goods.
 
-### **Returning Visitor Goals:**
+### Returning Visitor Goals:
 
 1. As a returning visitor, I intend to explore a variety of baked products offered by Hot Oven Bakery, making it easier for me to make a selection.
 2. As a returning visitor, I want detailed information about each baked good, helping me learn about the ingredients and characteristics to make an informed decision.
@@ -40,12 +38,11 @@ By achieving these goals, Hot Oven Bakery strives to make high-quality, freshly 
 4. As a returning user, my objective is to explore the schedule of classes at Hot Oven Bakery, contemplating enrolment in baking courses for an in-depth learning experience and community engagement.
 5. As a returning visitor, I aim to discover community links that provide additional insights into Hot Oven Bakery, fostering a sense of community and connection.
 
-### **Frequent Visitor Goals:**
+### Frequent Visitor Goals:
 
 1. As a frequent user, I wish to quickly check for any updates or changes in the available baked goods, "hot" deals, helping me decide which delightful treat to order.
 2. As a frequent user, I desire diverse contact options, allowing me to choose the most suitable way to get a prompt and explicit response to my inquiries or feedback.
 3. As a frequent user, I return to the website periodically with the intention of discovering new recipes and articles, as well as staying informed about the upcoming schedule of classes for the next month.
---
 
 ## User Experience (UX) & User Interface (UI)
 
@@ -95,7 +92,6 @@ By achieving these goals, Hot Oven Bakery strives to make high-quality, freshly 
     
     ![Map of website](documentation/wireframes/map.png)
     
-
 ### Colour Scheme
 
 #### Color Palette
@@ -155,8 +151,6 @@ Our logo embodies the essence of Hot Oven Bakery, capturing the artistry and war
 The careful detailing extends to the edges, where a subtle touch of charred perfection adds character and visual appeal. This emblem not only represents our commitment to exquisite baking but also invites you to experience the art and flavour we infuse into every creation.
 
 ![Hot Oven Logo](documentation/logo500px.png)
-
---
 
 ## **Features**
 
@@ -424,8 +418,6 @@ A captivating photograph of our bakers and sales staff, enhancing the overall po
     
 ![Response page #2](documentation/response-after-contact-page.jpg)
     
---
-
 ## Technologies Used
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
@@ -445,8 +437,6 @@ A captivating photograph of our bakers and sales staff, enhancing the overall po
 - [W3C HTML Validator](https://validator.w3.org/) - to test HTML code.
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator) - to test the CSS code.
 - [Notion](https://www.notion.so/) was used for online drafting of the README file. The content was then exported and integrated into the project for completion.
-
---
 
 ## Testing
 
@@ -771,9 +761,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | Response page #2 |  |  |  |  |  |
 | Link RETURN TO HOMEPAGE | Click on the "RETURN TO HOMEPAGE" link | The user is redirected to the homepage of the website | Yes | Yes | The hover effect is confirmed as the link changes color when the cursor is placed over it. |
 
-## Bugs
-
----
+### Bugs
 
 | Bug Description | Solution applied | Result |
 | --- | --- | --- |
@@ -783,7 +771,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 Observe the unappealing visual effect. | Improved the hover effect in the navigation menu to enhance visual appeal and create a more user-friendly experience. |
 | During initial performance testing, all pages exhibited results below 70%, indicating suboptimal performance. | Conducted optimisation by compressing and resizing images across the website using Adobe Photoshop. | Post-optimisation, the performance test results significantly improved, with all pages achieving a performance score exceeding 90%. |
 
-Mistakes
+### Mistakes
 
 - Mistakes were made while committing changes. I used past simple tense in commits due to the habit when I just started working on this project.
 - While progressing in my code I learned to use present simple tense in commits.
@@ -791,9 +779,7 @@ Mistakes
 - Realised the importance of documenting bugs in real-time for better tracking and resolution.
 - In future projects, I commit to maintaining a detailed log of encountered bugs and their resolution steps throughout the development process.
 
-## **Deployment**
-
----
+## Deployment
 
 ### Deployment to GitHub Pages
 
@@ -810,9 +796,9 @@ In order to make a local copy of this project, you can clone it. In your IDE Ter
 
 - `git clone https://github.com/pagaslav/hot-oven.git`
 
-### **Content**
+## Content
 
-**Logo:**
+### Images
 
 1. Bakery Logo Template, floringheorghe, [License.](documentation/licenses/photos/image-1-license-certificate.txt)
 2. Reflecting on rye photo, [License.](documentation/licenses/photos/image-2-license-certificate.txt)
@@ -834,11 +820,11 @@ In order to make a local copy of this project, you can clone it. In your IDE Ter
 18. Fresh french baguettes, [License.](documentation/licenses/photos/image-18-license-certificate.txt)
 19.  Healthy bread photo, [License.](documentation/licenses/photos/image-19-license-certificate.txt)
 
-**Audio:**
+## Audio:
 
 - Upbeat Motivational Indie, pinkzebra, [License.](documentation/licenses/audio_license_certificate.txt)
 
-**Video:**
+## Video:
 
 1. Machine Knead the Dough From Flour Production Plant Bread Plant, aerocaminua, [License.](documentation/licenses/videos/video_1_license_certificate.txt)
 2. Rolling Out Bread Dough, StockFS, [License.](documentation/licenses/videos/video_2_license_certificate.txt)
@@ -855,9 +841,7 @@ In order to make a local copy of this project, you can clone it. In your IDE Ter
 13. Female staff serving bread at bakery store, [License.]()
 14. Bread Displayed By the Baker Assortment of Spanish Baguette and Traditional Bakery Shop Desserts, [License.]()
 
-## **Acknowledgments**
-
----
+## Acknowledgments
 
 [Iuliia Konovalova](https://github.com/IuliiaKonovalova), my mentor, for her invaluable advice and guidance during our online meetings. Her positive and pleasant demeanor instills hope that I am not too old to embark on a career transition and learn new skills.
 
