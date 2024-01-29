@@ -4,8 +4,6 @@
 
 View the live site [here](https://pagaslav.github.io/hot-oven)
 
---
-
 ## Introduction
 
 The **Hot Oven Bakery** website provides information about our range of baked goods, including French baguettes, sourdough, sweet baked goods and gluten-free options. You can easily place orders online, choose flexible pickup times, and contact us for inquiries or feedback. Our goal is to offer a straightforward and convenient experience, making artisanal baking accessible to everyone.
