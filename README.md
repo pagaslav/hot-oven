@@ -642,7 +642,7 @@ Desktop:
 
 Mobile:
 
-![Order and Collect Form response page. Test for mobiles](documentation/lighthouse/lighthouse-response-form-contact-mobile.jpg)
+![Order and Collect Form response page. Test for mobiles](documentation/lighthouse/lighthouse-response-form-book-mobile.jpg)
 
 **Contact page**
 
