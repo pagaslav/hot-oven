@@ -677,10 +677,15 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | Safari | Good | Good |
 
 - **Chrome**
+  
 ![Chrome. Index page](documentation/chrome-index-page.jpg)
+
 - **Firefox**
-![Chrome. Index page](documentation/firefox-index-page.jpg)
+  
+![Firefox. Index page](documentation/firefox-index-page.jpg)
+
 - **Safari**
+  
 ![Safari. Index page](documentation/safari-index-page.jpg)
 
 ### **Manual testing**
