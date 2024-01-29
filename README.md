@@ -684,9 +684,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | FireFox | Good | Good |
 | Safari | Good | Good |
 
-## **Manual testing**
-
----
+### **Manual testing**
 
 | feature | test case | expected result | tested | passed | comments |
 | --- | --- | --- | --- | --- | --- |
