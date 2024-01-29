@@ -441,6 +441,7 @@ A captivating photograph of our bakers and sales staff, enhancing the overall po
 - [W3C HTML Validator](https://validator.w3.org/) - to test HTML code.
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator) - to test the CSS code.
 - [Notion](https://www.notion.so/) was used for online drafting of the README file. The content was then exported and integrated into the project for completion.
+- [YouTube] (https://www.youtube.com/)- for hosting and publishing edited videos in English. The videos are available on the author's account.
 
 ## Testing
 
@@ -786,6 +787,10 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | The hover effect in the navigation menu is unappealing, negatively impacting user-friendliness. | Hover over the navigation menu items.
 Observe the unappealing visual effect. | Improved the hover effect in the navigation menu to enhance visual appeal and create a more user-friendly experience. |
 | During initial performance testing, all pages exhibited results below 70%, indicating suboptimal performance. | Conducted optimisation by compressing and resizing images across the website using Adobe Photoshop. | Post-optimisation, the performance test results significantly improved, with all pages achieving a performance score exceeding 90%. |
+
+### Unsolved Bugs
+
+To the best of my knowledge, there are no unresolved bugs at the moment.
 
 ### Mistakes
 
