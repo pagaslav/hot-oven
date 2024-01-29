@@ -22,7 +22,7 @@ The Hot Oven Bakery website aims to offer a seamless and enjoyable experience fo
 By achieving these goals, Hot Oven Bakery strives to make high-quality, freshly baked goods easily accessible while maintaining a personalized and engaging interaction with its customers.
 
 
-## User Stories**
+## User Stories
 
 ### First Time Visitor Goals:
 
@@ -152,9 +152,9 @@ The careful detailing extends to the edges, where a subtle touch of charred perf
 
 ![Hot Oven Logo](documentation/logo500px.png)
 
-## **Features**
+## Features
 
-### **Navigation**
+### Navigation
 
 The navigation on the Hot Oven Bakery website is meticulously designed to provide a seamless and visually appealing user experience. Here's an overview of the navigation elements:
 
@@ -303,11 +303,13 @@ The Shop page is meticulously designed to align with Hot Oven Bakery's commitmen
 ![Shop page](documentation/shop-page.jpg)
 
 #### Golden Crunch Experience:
+
 This section highlights our flagship product, the French Baguette, accentuating its artisanal craftsmanship and unique crunch. To optimize design and enhance user engagement, an enticing text is strategically placed to the right of the prominent image. Instead of a conventional button, the image itself is made clickable. Upon clicking, users are seamlessly directed to the baking order form. Notably, the order form prioritizes French Baguettes, positioning them as the first item on the list. This design approach aims to captivate users visually, driving them towards the desired action of placing an order for our featured product, the French Baguette.
 
 ![Golden Crunch Experience](documentation/shop-page-baquetts.jpg)
 
 #### Timeless Classics: Our Legacy Bread Collection:
+
 Highlighting the core bread offerings, including the Classic White Sourdough Bread, Toast Bread, and Ciabatta, this section ensures that users can make informed decisions. Each product is complemented by a convenient "Order and Collect" button, which is animated on hover, directly linking to the baking order form, streamlining the user journey.
 
 ![Timeless Classics](documentation/shop-page-classic.jpg)
@@ -318,11 +320,13 @@ Catering to health-conscious consumers, this section not only showcases our Low 
 ![Low and Gluten-Free Bread Selection](documentation/shop-page-low-gluten.jpg)
 
 #### Sweet Temptations: Bakery Shop Section:
+
 Dedicated to sweet treats, this segment introduces the bakery shop's offerings with an emphasis on user engagement. Each product, including Apple Crumble, Sweet Brioche, Pumpkin Bread, and Daily Muffin, features an enticing description along with a "Order and Collect" button, which is animated on hover, ensuring a direct link to the baking order form for a hassle-free ordering process.
 
 ![Sweet Temptations: Bakery Shop Section](documentation/shop-page-sweet.jpg)
 
 #### How We Sell Our Bread - Video:
+
 Featuring an embedded video, this section provides users with a visual insight into the bakery's operations, specifically how our bread is presented and sold. The video is aimed at engaging bakery enthusiasts and fostering a connection with the brand.
 
 ![How We Sell Our Bread - Video](documentation/how-we-sell.jpg)
@@ -532,7 +536,7 @@ No errors or warnings were found when passing through the official W3C validator
 
 ![Order and Collect Form page w3c html testing](documentation/w3c/w3c-html-form-book.jpg)
 
-- **Order and Collect Form** **response page**
+- **Order and Collect Form response page**
 
 No errors or warnings were found when passing through the official W3C validator.
 
@@ -620,7 +624,7 @@ Mobile:
 
 ![Shop page. Test for mobiles](documentation/lighthouse/lighthouse-shop-mobile.jpg)
 
-**Order and Collect Form** **page**
+**Order and Collect Form page**
 
 Desktop:
 
@@ -630,7 +634,7 @@ Mobile:
 
 ![Order and Collect Form page. Test for mobiles](documentation/lighthouse/lighthouse-response-form-book-mobile.jpg)
 
-**Order and Collect Form** **response page**
+**Order and Collect Form response page**
 
 Desktop:
 
@@ -672,16 +676,23 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | FireFox | Good | Good |
 | Safari | Good | Good |
 
+- **Chrome**
+![Chrome. Index page](documentation/chrome-index-page.jpg)
+- **Firefox**
+![Chrome. Index page](documentation/firefox-index-page.jpg)
+- **Safari**
+![Safari. Index page](documentation/safari-index-page.jpg)
+
 ### **Manual testing**
 
 | feature | test case | expected result | tested | passed | comments |
 | --- | --- | --- | --- | --- | --- |
-| Navbar |  |  |  |  |  |
+| **Navbar** |  |  |  |  |  |
 | Logo | Click on the Logo on each  page | The user is redirected to the Home page | Yes | Yes |  |
 | Home | Click on the "Home" link on each page | The user is redirected to the Home page | Yes | Yes | Confirm that a hover effect is triggered, and the text color of the respective menu item changes. |
 | Shop | Click on the "Shop" link on each page | The user is redirected to the Shop page | Yes | Yes | Confirm that a hover effect is triggered, and the text color of the respective menu item changes. |
 | Contact | Click on the "Contact" link on each page | The user is redirected to the Contact page | Yes | Yes | Confirm that a hover effect is triggered, and the text color of the icon of social-media changes. |
-| Footer |  |  |  |  |  |
+| **Footer** |  |  |  |  |  |
 | Logo | Click on the Logo on each  page | The user is redirected to the Home page | Yes | Yes |  |
 | Email | Click on the Email Address | Open the default email client with a new email addressed to the provided email | Yes | Yes |  |
 | Artem Bryzh link | Click on the author's name link. | Open the LinkedIn profile of the developer in a new window | Yes | Yes |  |
@@ -689,7 +700,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | Facebook icon in the footer | Click on the Facebook icon | The user is redirected to the Facebook page  in a new window | Yes | Yes | Confirm that a hover effect is triggered, and the colour of the icon of social-media changes. |
 | Twitter icon in the footer | Click on the Twitter icon | The user is redirected to the Twitter page  in a new window | Yes | Yes | Confirm that a hover effect is triggered, and the colour of the icon of social-media changes. |
 | YouTube icon in the footer | Click on the YouTube icon | The user is redirected to the YouTube page  in a new window | Yes | Yes | Confirm that a hover effect is triggered, and the colour of the icon of social-media changes. |
-| Home page |  |  |  |  |  |
+| **Home page** |  |  |  |  |  |
 | Image of baguettes, HOT DEAL ITEM | Click on the "Hot Deal" image | The user is redirected to the Shop page with full information about the hot deal | Yes | Yes |  |
 | Link to article about RYE | Click on the image linking to the article about Rye | The user is redirected to the page with the article about Rye | Yes | Yes |  |
 | Link to article about Ukrainian bread | Click on the image linking to the article about Ukrainian Bread | The user is redirected to the page with the article about Ukrainian Bread | Yes | Yes |  |
@@ -697,18 +708,18 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | Link to article about Bakery school schedule | Click on the image linking to the article about Bakery School Schedule | The user is redirected to the page with the article about the Bakery School Schedule | Yes | Yes |  |
 | Link to video on Youtube | Click on the play button or the video link | The user can either watch the bakery's video directly on the page or choose to open it in a new window on the YouTube page | Yes | Yes |  |
 | Link RETURN TO TOP | Click on the "Return to Top" link | The user is smoothly scrolled to the top of the webpage | Yes | Yes | The hover effect is confirmed as the link changes color when the cursor is placed over it. |
-| Page with article about RYE |  |  |  |  |  |
+| **Page with article about RYE** |  |  |  |  |  |
 | Ukrainian bread Order and collect button | Click on the "Order and Collect" button next to Ukrainian bread | The user is redirected to the page with a form to place an order and select a collection time | Yes | Yes | The hover effect is confirmed as the button changes color when the cursor is placed over it. |
 | Link RETURN TO HOMEPAGE | Click on the "RETURN TO HOMEPAGE" link | The user is redirected to the homepage of the website | Yes | Yes | The hover effect is confirmed as the link changes color when the cursor is placed over it. |
-| Page about Ukrainian bread |  |  |  |  |  |
+| **Page about Ukrainian bread** |  |  |  |  |  |
 | Ukrainian bread Order and collect button | Click on the "Order and Collect" button next to Ukrainian bread | The user is redirected to the page with a form to place an order and select a collection time | Yes | Yes | The hover effect is confirmed as the button changes color when the cursor is placed over it. |
 | Link RETURN TO HOMEPAGE | Click on the "RETURN TO HOMEPAGE" link | The user is redirected to the homepage of the website | Yes | Yes | The hover effect is confirmed as the link changes color when the cursor is placed over it. |
-| Page about healthy bread |  |  |  |  |  |
+| **Page about healthy bread** |  |  |  |  |  |
 | Gluten-free bred Order and collect button | Click on the "Order and Collect" button next to Gluteen-free bread | The user is redirected to the page with a form to place an order and select a collection time | Yes | Yes | The hover effect is confirmed as the button changes color when the cursor is placed over it. |
 | Link RETURN TO HOMEPAGE | Click on the "RETURN TO HOMEPAGE" link | The user is redirected to the homepage of the website | Yes | Yes | The hover effect is confirmed as the link changes color when the cursor is placed over it. |
-| Page with the schedule of the baking school |  |  |  |  |  |
+| **Page with the schedule of the baking school** |  |  |  |  |  |
 | Link RETURN TO HOMEPAGE | Click on the "RETURN TO HOMEPAGE" link | The user is redirected to the homepage of the website | Yes | Yes | The hover effect is confirmed as the link changes color when the cursor is placed over it. |
-| Shop page |  |  |  |  |  |
+| **Shop page** |  |  |  |  |  |
 | Image of baquettes, HOT DEAL ITEM | Click on the "Hot Deal" image | The user is redirected to the page with a form to place an order and select a collection time | Yes | Yes |  |
 | Sourdough bread Order and collect button | Click on the "Order and Collect" button next to Sourdough bread | The user is redirected to the page with a form to place an order and select a collection time | Yes | Yes | The hover effect is confirmed as the button changes color when the cursor is placed over it. |
 | Toast bread Order and collect button | Click on the "Order and Collect" button next to Toast bread | The user is redirected to the page with a form to place an order and select a collection time | Yes | Yes | The hover effect is confirmed as the button changes color when the cursor is placed over it. |
@@ -721,7 +732,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | Daily muffin Order and collect button | Click on the "Order and Collect" button next to daily muffin bread | The user is redirected to the page with a form to place an order and select a collection time | Yes | Yes | The hover effect is confirmed as the button changes color when the cursor is placed over it. |
 | Link to video on Youtube | Click on the play button or the video link | The user can either watch the bakery's video directly on the page or choose to open it in a new window on the YouTube page | Yes | Yes |  |
 | Link RETURN TO TOP | Click on the "Return to Top" link | The user is smoothly scrolled to the top of the webpage | Yes | Yes | The hover effect is confirmed as the link changes color when the cursor is placed over it. |
-| Order and Collect form page |  |  |  |  |  |
+| **Order and Collect form page** |  |  |  |  |  |
 | Name input | Enter the  name | The name is entered | Yes | Yes | If the user doesn't enter the  name, the form will not submit when the button is pressed, and the page will return to this section with the cursor focused on the empty field. |
 | Phone input | Enter the phone number | The phone number is entered | Yes | Yes | This field are not required, and the user can leave it unfilled |
 | Email input | Enter the email | The email is entered | Yes | Yes | If the user doesn't enter an email, the form will not submit when the button is pressed, and the page will return to this section with the cursor focused on the empty field. |
@@ -749,16 +760,16 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | Order Comments Section | Leave a comment | The comment is entered | Yes | Yes | This section is not required, as the user can choose to leave it empty. |
 | Submit button | Click on the "Submit" button | The user is redirected to the response page | Yes | Yes | The hover effect is confirmed as the button changes color when the cursor is placed over it. |
 | Link RETURN TO SHOP PAGE | Click on the "RETURN TO SHOP PAGE" link | The user is redirected to the Shop page | Yes | Yes | The hover effect is confirmed as the link changes color when the cursor is placed over it. |
-| Response page #1 |  |  |  |  |  |
+| **Response page #1** |  |  |  |  |  |
 | Link RETURN TO HOMEPAGE | Click on the "RETURN TO HOMEPAGE" link | The user is redirected to the homepage of the website | Yes | Yes | The hover effect is confirmed as the link changes color when the cursor is placed over it. The user will be redirected to the Home page automatically after 15 seconds once the response page appears. |
-| Contact page |  |  |  |  |  |
+| **Contact page** |  |  |  |  |  |
 | Name input | Enter the  name | The name is entered | Yes | Yes | If the user doesn't enter the  name, the form will not submit when the button is pressed, and the page will return to this section with the cursor focused on the empty field. |
 | Phone input | Enter the phone number | The phone number is entered | Yes | Yes | This field are not required, and the user can leave it unfilled |
 | Email input | Enter the email | The email is entered | Yes | Yes | If the user doesn't enter an email, the form will not submit when the button is pressed, and the page will return to this section with the cursor focused on the empty field. |
 | Message Section | Leave a comment | The comment is entered | Yes | Yes | If the user doesn't enter a text, the form will not submit when the button is pressed, and the page will return to this section with the cursor focused on the empty field. |
 | Submit button | Click on the "Submit" button | The user is redirected to the response page | Yes | Yes | The hover effect is confirmed as the button changes color when the cursor is placed over it. |
 | Link RETURN TO TOP | Click on the "Return to Top" link | The user is smoothly scrolled to the top of the webpage | Yes | Yes | The hover effect is confirmed as the link changes color when the cursor is placed over it. |
-| Response page #2 |  |  |  |  |  |
+| **Response page #2** |  |  |  |  |  |
 | Link RETURN TO HOMEPAGE | Click on the "RETURN TO HOMEPAGE" link | The user is redirected to the homepage of the website | Yes | Yes | The hover effect is confirmed as the link changes color when the cursor is placed over it. |
 
 ### Bugs
@@ -796,7 +807,22 @@ In order to make a local copy of this project, you can clone it. In your IDE Ter
 
 - `git clone https://github.com/pagaslav/hot-oven.git`
 
-## Content
+## Credits
+
+### Content
+
+**Bread Recipes and Information**
+
+The bread recipes and information provided in this project have been sourced from the following places:
+
+1. **Ethnic Bread Recipes:**
+   - Some of the bread recipes are adapted from [Etnoxata](https://etnoxata.com.ua/), a wonderful resource for ethnic bread recipes in Ukranian.
+
+2. **General Information:**
+   - Additional information about bread and baking techniques is referenced from [Wikipedia](https://en.wikipedia.org/).
+
+3. **Personal Experience:**
+   - Certain recipes and tips are based on my rich experience in bread baking, which has been my hobby for the past 4 years.
 
 ### Images
 
@@ -820,11 +846,11 @@ In order to make a local copy of this project, you can clone it. In your IDE Ter
 18. Fresh french baguettes, [License.](documentation/licenses/photos/image-18-license-certificate.txt)
 19.  Healthy bread photo, [License.](documentation/licenses/photos/image-19-license-certificate.txt)
 
-## Audio:
+### Audio:
 
 - Upbeat Motivational Indie, pinkzebra, [License.](documentation/licenses/audio_license_certificate.txt)
 
-## Video:
+### Video:
 
 1. Machine Knead the Dough From Flour Production Plant Bread Plant, aerocaminua, [License.](documentation/licenses/videos/video_1_license_certificate.txt)
 2. Rolling Out Bread Dough, StockFS, [License.](documentation/licenses/videos/video_2_license_certificate.txt)
@@ -843,16 +869,16 @@ In order to make a local copy of this project, you can clone it. In your IDE Ter
 
 ## Acknowledgments
 
-[Iuliia Konovalova](https://github.com/IuliiaKonovalova), my mentor, for her invaluable advice and guidance during our online meetings. Her positive and pleasant demeanor instills hope that I am not too old to embark on a career transition and learn new skills.
+- [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
 
-[Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
+- Special thanks to the December offline hackathon, [Code Institute](https://codeinstitute.net/), [SODA](https://www.trustinsoda.com/), which, for a week, made me part of the best team and allowed me to mess up my first README not in my project, but in the one that was at the hackathon.
 
-[Kevin Powell](https://www.youtube.com/user/KepowOb) for his amazing CSS tutorials.
+- [Iuliia Konovalova](https://github.com/IuliiaKonovalova), my mentor, for her invaluable advice and guidance during our online meetings. Her positive and pleasant demeanor instills hope that I am not too old to embark on a career transition and learn new skills.
 
-A heartfelt thank you to the creators of [Bootstrap](https://getbootstrap.com/) for providing an excellent style framework. Their toolkit not only accelerates the development process but also empowers beginners to exceed their own capabilities.
+- [Kevin Powell](https://www.youtube.com/user/KepowOb) for his amazing CSS tutorials.
 
-Special thanks to the December offline hackathon, [Code Institute](https://codeinstitute.net/), [SODA](https://www.trustinsoda.com/), which, for a week, made me part of the best team and allowed me to mess up my first README not in my project, but in the one that was at the hackathon.
+- A heartfelt thank you to the creators of [Bootstrap](https://getbootstrap.com/) for providing an excellent style framework. Their toolkit not only accelerates the development process but also empowers beginners to exceed their own capabilities.
 
-Special gratitude to the challenges presented by the [COVID](https://www.who.int/health-topics/coronavirus) lockdown, which unexpectedly led me to discover the art of bread baking. This experience has become a sincere passion, transforming the process into a form of meditation and a source of approval from my family. 
+- Special gratitude to the challenges presented by the [COVID](https://www.who.int/health-topics/coronavirus) lockdown, which unexpectedly led me to discover the art of bread baking. This experience has become a sincere passion, transforming the process into a form of meditation and a source of approval from my family. 
 
-Special thanks to my [local community in Wales](https://www.caerphilly.gov.uk/), where top-notch bakeries with excellent bread are scarce. Your absence has been a driving force in creating this project, aiming to fill the gap and provide a clear and accessible website for exceptional bread and baking information.
+- Thanks to my [local community in Wales](https://www.caerphilly.gov.uk/), where top-notch bakeries with excellent bread are scarce. Their absence has been a driving force in creating this project, aiming to fill the gap and provide a clear and accessible website for exceptional bread and baking information.
