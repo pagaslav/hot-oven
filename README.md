@@ -826,7 +826,7 @@ In order to make a local copy of this project, you can clone it. In your IDE Ter
 The bread recipes and information provided in this project have been sourced from the following places:
 
 1. **Ethnic Bread Recipes:**
-   - Some of the bread recipes are adapted from [Etnoxata](https://etnoxata.com.ua/), a wonderful resource for ethnic bread recipes in Ukranian.
+   - Some of the bread recipes are adapted from [Etnoxata](https://etnoxata.com.ua/), a wonderful resource for ethnic bread recipes in Ukrainian.
 
 2. **General Information:**
    - Additional information about bread and baking techniques is referenced from [Wikipedia](https://en.wikipedia.org/).
